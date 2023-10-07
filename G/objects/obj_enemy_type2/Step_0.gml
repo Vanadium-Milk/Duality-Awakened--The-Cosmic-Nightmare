@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 
 var player = instance_nearest(x, y, objPlayer);
@@ -8,7 +8,7 @@ if (player) {
     direction = move_direction;
     x += lengthdir_x(speed, move_direction);
     y += lengthdir_y(speed, move_direction);}
-
+ 
 
 
 

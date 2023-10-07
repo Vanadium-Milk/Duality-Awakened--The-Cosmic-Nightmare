@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Obstaculos",
+    "path": "folders/Objects/Obstaculos.yy",
   },
   "parentObjectId": {
     "name": "objSolid",
@@ -27,10 +27,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "coli",
-    "path": "sprites/coli/coli.yy",
+    "name": "Rocas_Grandes",
+    "path": "sprites/Rocas_Grandes/Rocas_Grandes.yy",
   },
   "spriteMaskId": null,
   "visible": true,

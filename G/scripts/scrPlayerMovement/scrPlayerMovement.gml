@@ -4,7 +4,7 @@
 
 	if (hor != 0 || ver != 0) {
 		var dir = point_direction(0,0,hor,ver);
-		scrCharMoveTo(2, dir);
+		scrCharMoveTo(4, dir);
 		
 		action = "Walk";
 		scrCharLookAt(dir);
