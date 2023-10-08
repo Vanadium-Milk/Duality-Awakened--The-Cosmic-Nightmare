@@ -12,6 +12,7 @@
     {"name":"Weapons","order":1,"path":"folders/Sprites/Weapons.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Humo_chiquito","order":3,"path":"particles/Humo_chiquito/Humo_chiquito.yy",},
     {"name":"objGun","order":2,"path":"objects/objGun/objGun.yy",},
     {"name":"Humo_efecto","order":1,"path":"particles/Humo_efecto/Humo_efecto.yy",},
     {"name":"objSMG","order":3,"path":"objects/objSMG/objSMG.yy",},
@@ -62,6 +63,7 @@
     {"name":"sprPlayerWalkL","order":3,"path":"sprites/sprPlayerWalkL/sprPlayerWalkL.yy",},
     {"name":"sprPlayerRollR","order":2,"path":"sprites/sprPlayerRollR/sprPlayerRollR.yy",},
     {"name":"sprPlayerIdleDL","order":1,"path":"sprites/sprPlayerIdleDL/sprPlayerIdleDL.yy",},
+    {"name":"Brotes","order":4,"path":"particles/Brotes/Brotes.yy",},
     {"name":"sprMask","order":10,"path":"sprites/sprMask/sprMask.yy",},
     {"name":"Sprite45","order":4,"path":"sprites/Sprite45/Sprite45.yy",},
     {"name":"objSolid","order":7,"path":"objects/objSolid/objSolid.yy",},

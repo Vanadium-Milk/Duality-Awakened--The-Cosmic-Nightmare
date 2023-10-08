@@ -33,9 +33,10 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
+    {"id":{"name":"Humo_chiquito","path":"particles/Humo_chiquito/Humo_chiquito.yy",},},
     {"id":{"name":"objGun","path":"objects/objGun/objGun.yy",},},
     {"id":{"name":"Humo_efecto","path":"particles/Humo_efecto/Humo_efecto.yy",},},
     {"id":{"name":"objSMG","path":"objects/objSMG/objSMG.yy",},},
@@ -96,6 +97,7 @@
     {"id":{"name":"Brillos","path":"particles/Brillos/Brillos.yy",},},
     {"id":{"name":"sprPlayerRollR","path":"sprites/sprPlayerRollR/sprPlayerRollR.yy",},},
     {"id":{"name":"sprPlayerIdleDL","path":"sprites/sprPlayerIdleDL/sprPlayerIdleDL.yy",},},
+    {"id":{"name":"Brotes","path":"particles/Brotes/Brotes.yy",},},
     {"id":{"name":"sprPlayerRollD","path":"sprites/sprPlayerRollD/sprPlayerRollD.yy",},},
     {"id":{"name":"Rocas_Grandes","path":"sprites/Rocas_Grandes/Rocas_Grandes.yy",},},
     {"id":{"name":"sprMask","path":"sprites/sprMask/sprMask.yy",},},
