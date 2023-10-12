@@ -8,6 +8,9 @@
         // El jugador ha perdido el juego
         game_restart(); // Llama a una función que maneje la derrota del jugador
 	 room_goto_next();
+	 
+audio_play_sound(dolor, 1, true);
+
 	}
 
 
