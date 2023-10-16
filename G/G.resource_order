@@ -17,8 +17,8 @@
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
     {"name":"Obstaculos","order":3,"path":"folders/Sprites/Obstaculos.yy",},
     {"name":"Colision masks","order":7,"path":"folders/Sprites/Obstaculos/Colision masks.yy",},
-    {"name":"Weapons","order":1,"path":"folders/Sprites/Weapons.yy",},
     {"name":"UI","order":4,"path":"folders/Sprites/UI.yy",},
+    {"name":"Weapons","order":1,"path":"folders/Sprites/Weapons.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Sprite50","order":19,"path":"sprites/Sprite50/Sprite50.yy",},

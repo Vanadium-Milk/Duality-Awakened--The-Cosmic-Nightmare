@@ -35,8 +35,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Idle","folderPath":"folders/Sprites/Player/Idle.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Roll","folderPath":"folders/Sprites/Player/Roll.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walk","folderPath":"folders/Sprites/Player/Walk.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Sprites/Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Sprites/Weapons.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"WhatsApp Video 2023-10-09 at 8.41.42 AM.mp4","CopyToMask":-1,"filePath":"datafiles",},

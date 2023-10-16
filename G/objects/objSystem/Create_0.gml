@@ -3,7 +3,7 @@
 
 display_set_gui_size(1800, 800);
 
-playerHP = objPlayer.vida;
+playerHP = 15;
 playerMaxHP = 15;
 
 
