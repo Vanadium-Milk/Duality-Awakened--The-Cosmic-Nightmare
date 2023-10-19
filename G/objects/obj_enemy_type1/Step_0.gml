@@ -10,5 +10,10 @@ if (player) {
     x += lengthdir_x(speed, move_direction);
     y += lengthdir_y(speed, move_direction);}
 
+// Encuentra la dirección hacia el jugador
+var dir = point_direction(x, y, objPlayer.y, objPlayer.x);
+
+// Voltea el sprite del enemigo según la dirección
+image_xscale = sign(x-objPlayer.x);
 
 
