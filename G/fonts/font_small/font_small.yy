@@ -125,7 +125,7 @@
   "maintainGms1Font": false,
   "parent": {
     "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "path": "folders/GUI.yy",
   },
   "pointRounding": 0,
   "ranges": [

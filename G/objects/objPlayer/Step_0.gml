@@ -15,9 +15,6 @@ switch (action) {
 		scrCharLookAt(rollDirection);
 		break;
 }
-if obj_enemy_type1.distancia_al_jugador < 200 {
-    audio_play_sound(spiky, 1, false);
-}
 // Voltea el sprite hacia la dirección del mouse sin afectar el movimiento
 var mouseX = mouse_x;
 var myX =x;

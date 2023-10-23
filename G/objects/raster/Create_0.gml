@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+health_raster=100;
 
 
 
