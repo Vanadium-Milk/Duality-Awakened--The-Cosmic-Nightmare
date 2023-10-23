@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "G",
-    "path": "G.yyp",
+    "name": "MINERALS",
+    "path": "folders/Sprites/MINERALS.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

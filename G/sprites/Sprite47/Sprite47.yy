@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Sprite47",
-  "bbox_bottom": 55,
-  "bbox_left": 0,
-  "bbox_right": 228,
-  "bbox_top": 0,
+  "bbox_bottom": 75,
+  "bbox_left": 5,
+  "bbox_right": 608,
+  "bbox_top": 5,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"de9436a6-ec1f-4c33-af18-636d72c29473",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"80eb5f81-ca80-495e-a0e1-7c286ec4c803",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 56,
+  "height": 78,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aa7f7131-8de9-4179-ac86-d272966498c3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6fdaf4cb-4173-49bb-94f7-25403e0ee45f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"de9436a6-ec1f-4c33-af18-636d72c29473","path":"sprites/Sprite47/Sprite47.yy",},},},"Disabled":false,"id":"43adea54-d371-4217-a9a8-a1e2dff343fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"80eb5f81-ca80-495e-a0e1-7c286ec4c803","path":"sprites/Sprite47/Sprite47.yy",},},},"Disabled":false,"id":"835fa949-cc9a-4566-862f-4c4016a792e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 229,
+  "width": 611,
 }

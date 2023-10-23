@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 322.6906,
+  "duration": 33.28,
   "parent": {
     "name": "ROOMS",
     "path": "folders/SONIDOS/ROOMS.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "room1.mp3",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.28,
 }

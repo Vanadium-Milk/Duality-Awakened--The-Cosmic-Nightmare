@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "G",
-    "path": "G.yyp",
+    "name": "UI",
+    "path": "folders/Sprites/UI.yy",
   },
   "spriteId": {
     "name": "Burbujas_Animacion",
