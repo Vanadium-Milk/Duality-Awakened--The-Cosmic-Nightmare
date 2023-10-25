@@ -13,7 +13,7 @@
   "duration": 33.28,
   "parent": {
     "name": "ROOMS",
-    "path": "folders/SONIDOS/ROOMS.yy",
+    "path": "folders/Objects/Weapons/SONIDOS/ROOMS.yy",
   },
   "preload": false,
   "sampleRate": 44100,

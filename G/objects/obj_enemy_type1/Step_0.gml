@@ -18,3 +18,8 @@ var dir = point_direction(x, y, objPlayer.y, objPlayer.x);
 image_xscale = sign(x-objPlayer.x);
 
 
+
+
+
+
+
