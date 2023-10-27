@@ -16,6 +16,12 @@ var dir = point_direction(x, y, objPlayer.y, objPlayer.x);
 // Voltea el sprite del enemigo según la dirección
 image_xscale = sign(x-objPlayer.x);
 
+// En el evento "Step" del objeto
+estadoSprite = 1
+if (estadoSprite == 1) {
+    estadoSprite = 0; // Restablece el estado a 0 (estado original)
+    sprite_index = Sprite65; // Cambia el sprite al sprite original
+}
 
 
 
