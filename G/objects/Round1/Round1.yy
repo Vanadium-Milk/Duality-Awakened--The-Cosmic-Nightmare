@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object37",
+  "name": "Round1",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/GUI.yy",
+    "name": "Rounds",
+    "path": "folders/Objects/Rounds.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite71",
+    "path": "sprites/Sprite71/Sprite71.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

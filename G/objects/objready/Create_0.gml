@@ -1,10 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+alarm[0] = room_speed * .5;
 
-display_set_gui_size(1800, 800);
-
-playerHP = 15;
-playerMaxHP = 15;
-n=10;
 
 
