@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 distancia_al_jugador = point_distance(x, y, objPlayer.x, objPlayer.y);
 
 var player = instance_nearest(x, y, objPlayer);

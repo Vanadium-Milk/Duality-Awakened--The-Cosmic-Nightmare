@@ -15,3 +15,4 @@ audio_play_sound(room1, 1, true); // "snd_tu_musica" es el nombre de tu música
 score += 0; // Puedes ajustar el valor (10) según lo que quieras que valga un enemigo eliminado.
 furia=0;
 
+
