@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite72",
+  "name": "Sprite74",
   "bbox_bottom": 112,
   "bbox_left": 1,
   "bbox_right": 649,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2dcbe1dd-0c58-4366-a747-cfffff177245",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98365f0c-6702-4b22-8b92-1ed6bbfca76a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 113,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"85ed59e2-7b54-4f23-92e6-f18b58ca2835","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c88a5b56-5f7f-469a-9280-26fd483bf79a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite72",
+    "name": "Sprite74",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2dcbe1dd-0c58-4366-a747-cfffff177245","path":"sprites/Sprite72/Sprite72.yy",},},},"Disabled":false,"id":"52436fd3-5f19-439e-b83c-af88a639bc84","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"98365f0c-6702-4b22-8b92-1ed6bbfca76a","path":"sprites/Sprite74/Sprite74.yy",},},},"Disabled":false,"id":"de0d2c97-4cc6-41fd-8558-da652a652aa4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
