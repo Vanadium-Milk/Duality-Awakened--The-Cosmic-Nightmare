@@ -30,7 +30,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bee30d42-814d-452c-98e6-27f23e160c19","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "Walk",
     "path": "folders/Sprites/Player/Walk.yy",
@@ -74,7 +74,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 16,
-    "yorigin": 46,
+    "yorigin": 43,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
