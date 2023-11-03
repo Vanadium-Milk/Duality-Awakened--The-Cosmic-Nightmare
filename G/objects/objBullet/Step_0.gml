@@ -1,4 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description Updating the particles
+part_system_position(_ps, x, y);
 
 
