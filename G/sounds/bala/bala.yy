@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.136,
+  "duration": 0.816,
   "parent": {
     "name": "WEAPONS",
     "path": "folders/Objects/Weapons/SONIDOS/WEAPONS.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "bala.mp3",
   "type": 0,
-  "volume": 0.52,
+  "volume": 0.1,
 }
