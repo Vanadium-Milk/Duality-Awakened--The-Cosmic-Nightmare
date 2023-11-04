@@ -1,2 +1,2 @@
-/// @description Delete entity if leaves the room
+/// @description Destroy on boundary contact
 scrDestroyBullet();

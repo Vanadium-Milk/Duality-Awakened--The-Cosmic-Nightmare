@@ -10,6 +10,9 @@ weapon = {
 	frames: 0
 };
 
+health = 15;
+max_health = 15;
+
 window_set_cursor(cr_none);
 cursor_sprite=Sprite68;
 rollDirection = 0;

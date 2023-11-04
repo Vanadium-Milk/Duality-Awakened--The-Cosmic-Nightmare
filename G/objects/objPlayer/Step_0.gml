@@ -13,7 +13,7 @@ switch (action) {
 		break;
 }
 // Voltea el sprite hacia la dirección del mouse sin afectar el movimiento
-scrCharLookAt();
+sprite_index = asset_get_index("sprPlayer" + action + scrGetFace(mouse_x,mouse_y));
 
 if (mouse_check_button_pressed(mb_left)) {
      window_set_cursor(cr_none);
