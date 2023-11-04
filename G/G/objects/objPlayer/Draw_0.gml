@@ -1,23 +1,35 @@
-//Checks the direction and draws the weapon behind or in front of the character
-if (face == "R" || face == "U"){
-	if (guns[weapon.index] != noone && (action == "Idle" || action == "Walk")) { //ensures the weapon is only drawn when its eqquiped and not rolling
-		
-		//Draws the corresponding weapon to the current direction, using the attributes from the weapon object, for the direction it concatenates the name with the character face
-		draw_sprite_ext(asset_get_index(guns[weapon.index].sprite + face), weapon.frames, x, y-25, 1, 1, weapon.angle, c_white, 1);
-	}
-	
-	draw_self(); // Dibuja el objeto de texto normalmente	
-}
-
-else {
-	//same code in different order
-	draw_self();
-
-	if (guns[weapon.index] != noone && (action == "Idle" || action == "Walk")) {
-		draw_sprite_ext(asset_get_index(guns[weapon.index].sprite + face), weapon.frames, x, y-25, 1, 1, weapon.angle, c_white, 1);
-	}
-}
+draw_self(); // Dibuja el objeto de texto normalmente
 
 // Obtén las coordenadas x e y del jugador
 var jugador_x = objPlayer.x;
 var jugador_y = objPlayer.y;
+
+// Calcula la posición para mostrar la vida encima del jugador
+var vida_x = jugador_x - string_width(string(objPlayer.vida)) / 2;
+var vida_y = jugador_y - 50; // Ajusta la distancia vertical según tu preferencia
+
+// Establece un tamaño de fuente más pequeño
+draw_set_font(font_small); // "font_small" es el nombre de la fuente pequeña
+
+// Muestra la vida en la posición calculada
+draw_text(vida_x, vida_y, string(objPlayer.vida));
+
+// Restaura el tamaño de fuente predeterminado
+draw_set_font(font_default); // Restaura la fuente predeterminada
+if (action != "Idle" && action != "Walk") { exit; }
+
+if (guns[weapon.index] != noone) {
+	var weaponScale = (weapon.angle >= 90 && weapon.angle < 270) ? -1 : 1;
+	var weaponAngle = weapon.angle + ((weapon.angle >= 90 && weapon.angle < 270) ? 180 : 0);
+
+
+
+
+	draw_sprite_ext(guns[weapon.index].sprite, 0, x, y - 4, weaponScale, 1, weaponAngle, c_white, 1);
+}
+
+
+
+
+
+

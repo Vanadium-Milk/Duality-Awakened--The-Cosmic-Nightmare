@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGun",
-    "path": "sprites/sprGun/sprGun.yy",
+    "name": "sprGunR",
+    "path": "sprites/sprGunR/sprGunR.yy",
   },
   "spriteMaskId": null,
   "visible": true,

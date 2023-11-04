@@ -35,7 +35,7 @@
   "origin": 4,
   "parent": {
     "name": "Enemies",
-    "path": "folders/room2/Sprites/Enemies.yy",
+    "path": "folders/Sprites/Enemies.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -1,6 +1,3 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-
-draw_sprite_ext(sprUIHPFrame, 0,-120, 0.5, (objSystem.playerMaxHP + 4) / 7, (2 + 6) / 7, 0, c_white, 1);
-
-draw_sprite_ext(Sprite52,Sprite51, -120, 2.7, (objSystem.playerHP + 4) / 7, (2 + 6) / 7, 0, c_white, 1);
+/// @description Update life bar
+draw_sprite(sprUIHPFrame,0,0,0);
+draw_sprite_ext(Life_bar, floor(frames), (205 * objSystem.playerHP / objSystem.playerMaxHP) - 205, 5, 1, 1, 0, c_white, 1);

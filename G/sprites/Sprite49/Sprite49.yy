@@ -32,7 +32,7 @@
   "origin": 7,
   "parent": {
     "name": "booster",
-    "path": "folders/room2/Sprites/booster.yy",
+    "path": "folders/Sprites/booster.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

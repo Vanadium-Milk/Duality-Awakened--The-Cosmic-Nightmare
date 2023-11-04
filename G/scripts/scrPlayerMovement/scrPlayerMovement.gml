@@ -8,7 +8,6 @@
 		scrCharMoveTo(4, dir);
 		
 		action = "Walk";
-		scrCharLookAt(dir);
 	} else {
 		action = "Idle";
 	}
