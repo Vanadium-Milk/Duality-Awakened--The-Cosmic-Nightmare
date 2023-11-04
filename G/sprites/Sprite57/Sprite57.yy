@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "booster",
-    "path": "folders/Sprites/booster.yy",
+    "path": "folders/room2/Sprites/booster.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

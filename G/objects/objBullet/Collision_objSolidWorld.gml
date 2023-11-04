@@ -1,1 +1,1 @@
-scrDestroyBullet();
+instance_destroy();

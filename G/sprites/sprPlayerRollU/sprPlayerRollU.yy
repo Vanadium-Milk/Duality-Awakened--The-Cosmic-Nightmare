@@ -29,7 +29,7 @@
   "origin": 7,
   "parent": {
     "name": "Roll",
-    "path": "folders/Sprites/Player/Roll.yy",
+    "path": "folders/room2/Sprites/Player/Roll.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

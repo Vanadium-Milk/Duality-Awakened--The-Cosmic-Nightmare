@@ -1,3 +1,5 @@
+ 
+
 switch (action) {
 	case "Idle":
 	case "Walk":
@@ -10,10 +12,22 @@ switch (action) {
 		
 	case "Roll":
 		scrCharMoveTo(1.5, rollDirection);
+		scrCharLookAt(rollDirection);
 		break;
 }
 // Voltea el sprite hacia la dirección del mouse sin afectar el movimiento
-scrCharLookAt();
+var mouseX = mouse_x;
+var myX =x;
+
+
+if (mouseX >= myX)
+{
+    image_xscale =-1 
+}
+else
+{
+    image_xscale = 1; // Voltear horizontalmente}
+}
 
 if (mouse_check_button_pressed(mb_left)) {
      window_set_cursor(cr_none);

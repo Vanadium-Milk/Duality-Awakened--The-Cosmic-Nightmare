@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "MINERALS",
-    "path": "folders/Sprites/MINERALS.yy",
+    "path": "folders/room2/Sprites/MINERALS.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

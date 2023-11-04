@@ -11,10 +11,7 @@
     "name": "Weapons",
     "path": "folders/Objects/Weapons.yy",
   },
-  "parentObjectId": {
-    "name": "objWeapon",
-    "path": "objects/objWeapon/objWeapon.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprGun",
-    "path": "sprites/sprGun/sprGun.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
