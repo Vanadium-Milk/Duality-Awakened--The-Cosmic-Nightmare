@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite68",
-    "path": "sprites/Sprite68/Sprite68.yy",
+    "name": "aim_cursor",
+    "path": "sprites/aim_cursor/aim_cursor.yy",
   },
   "spriteMaskId": null,
   "visible": true,
