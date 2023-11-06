@@ -2,7 +2,7 @@ display_set_gui_size(683, 384);
 window_set_fullscreen(true);
 randomise(); //Randomize seed
 
-
+global.round = 1;
 
 //animation curves pre-procesing
 animation_size = animcurve_get_channel(ani_damageExpand,0);
