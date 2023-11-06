@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite66",
-    "path": "sprites/Sprite66/Sprite66.yy",
+    "name": "spr_acidDrop",
+    "path": "sprites/spr_acidDrop/spr_acidDrop.yy",
   },
   "spriteMaskId": null,
   "visible": true,

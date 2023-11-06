@@ -1,2 +1,2 @@
 /// @description Destroy on boundary contact
-scrDestroyBullet();
+instance_destroy();

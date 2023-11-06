@@ -1,4 +1,7 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description Take acid damage
+enemy.enemy_health -= .3;
+scrPlayDmgAnimation(self);
 
-instance_destroy();
+if (enemy.enemy_health <= 0) { //If health goes 0 or below it dies
+	instance_destroy();
+}

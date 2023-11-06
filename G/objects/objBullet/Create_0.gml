@@ -1,5 +1,5 @@
 /// @description Set particles
-_ps = part_system_create();
+_ps = part_system_create(); 
 part_system_draw_order(_ps, true);
 
 //Creates a particle system based on the "Bullet_trail" particle system (see on folder)

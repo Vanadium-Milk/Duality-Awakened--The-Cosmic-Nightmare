@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scrDestroyBullet",
+  "name": "scrArrayMin",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "Shouldn't be needed",
+    "path": "folders/Scripts/Shouldn't be needed.yy",
   },
 }

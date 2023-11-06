@@ -1,0 +1,1 @@
+/// @description This enemy doesn't collide with obstacles
