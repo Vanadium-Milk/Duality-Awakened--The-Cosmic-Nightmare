@@ -10,8 +10,8 @@
     "path": "folders/Objects/Obstaculos.yy",
   },
   "parentObjectId": {
-    "name": "obj_acidlake",
-    "path": "objects/obj_acidlake/obj_acidlake.yy",
+    "name": "objSolid",
+    "path": "objects/objSolid/objSolid.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -6,12 +6,12 @@ if (face == "R" || face == "U"){
 		draw_sprite_ext(asset_get_index(guns[weapon.index].sprite + face), weapon.frames, x, y-25, 1, 1, weapon.angle, c_white, 1);
 	}
 	
-	event_inherited(); // Dibuja el objeto de texto normalmente	
+	draw_self(); // Dibuja el objeto de texto normalmente	
 }
 
 else {
 	//same code in different order
-	event_inherited();
+	draw_self();
 
 	if (guns[weapon.index] != noone && (action == "Idle" || action == "Walk")) {
 		draw_sprite_ext(asset_get_index(guns[weapon.index].sprite + face), weapon.frames, x, y-25, 1, 1, weapon.angle, c_white, 1);

@@ -1,5 +1,3 @@
-
-
 switch (action) {
 	case "Idle":
 	case "Walk":
@@ -11,10 +9,12 @@ switch (action) {
 		break;
 		
 	case "Roll":
-		scrCharMoveTo(1.5, rollDirection);
-		scrCharLookAt(rollDirection);
 		break;
 }
+// Voltea el sprite hacia la dirección del mouse sin afectar el movimiento
+sprite_index = asset_get_index("sprPlayer" + action + scrGetFace(mouse_x,mouse_y));
+
+
 
 
 

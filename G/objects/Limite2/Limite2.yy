@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "Limite2",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"raster","path":"objects/raster/raster.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +12,8 @@
     "path": "folders/Objects/Obstaculos.yy",
   },
   "parentObjectId": {
-    "name": "obj_acidlake",
-    "path": "objects/obj_acidlake/obj_acidlake.yy",
+    "name": "objSolid",
+    "path": "objects/objSolid/objSolid.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

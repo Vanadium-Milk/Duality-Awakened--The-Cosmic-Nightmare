@@ -1,2 +1,2 @@
-/// @description Destroy on boundary contact
-instance_destroy();
+/// @description Delete entity if leaves the room
+scrDestroyBullet();
