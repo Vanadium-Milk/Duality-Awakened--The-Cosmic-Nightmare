@@ -1,2 +1,0 @@
-item = noone;
-itemDef = noone;

@@ -1,5 +1,4 @@
 /// @description Set attributes
-
 event_inherited();
 enemy = {
 	sprite: "spr_enemy_raster",
