@@ -1,7 +1,5 @@
 /// @description Death events
 score += enemy.score_value
-<<<<<<< Updated upstream
-=======
 part_system_draw_order(_ps, true);
 
 var _ptype1 = part_type_create();
@@ -24,7 +22,6 @@ part_emitter_burst(_ps, _pemit1, _ptype1, 30 * power(enemy.death_intensity,2));
 part_system_position(_ps, x, y);
 
 alarm[0] = 60;
->>>>>>> Stashed changes
 	
 if (irandom(enemy.drop_chance - 1) = 0) { //Random chances of getting loot (1 out of 5 in this case)
     var drop_item = instance_create_layer(x,y,"Drops",choose(enemy.drop_list[0],enemy.drop_list[1])); // obj_drop_item es el nombre del objeto

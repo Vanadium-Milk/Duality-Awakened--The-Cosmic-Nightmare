@@ -28,6 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": null,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spawn_protection_mask",
+    "path": "sprites/spawn_protection_mask/spawn_protection_mask.yy",
+  },
   "visible": true,
 }
