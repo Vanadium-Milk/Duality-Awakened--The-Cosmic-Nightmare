@@ -1,12 +1,4 @@
-/// @description Next round
-for (var i = 0; i < power(global.round,2) + 10; i++){ //spawns n^2 +10 random enemies
-
-	var enemy = scrChooseEnemy();
-	do{
-		spawn_x = random(room_width);
-		spawn_y = random(room_height);
-	}
-	until (position_empty(spawn_x,spawn_y))
-
-	instance_create_layer(spawn_x,spawn_y,"Enemies",enemy); 
-  }
+/// @description Trigger next round
+Enemy_count = 0;
+Enemy_cap = power(global.round,2) + 10;
+event_perform(ev_alarm,0);

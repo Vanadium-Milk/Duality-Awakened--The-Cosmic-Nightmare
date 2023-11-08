@@ -1,4 +1,5 @@
 /// @description Follow player
+depth = -y;
 var player = inst_Player;
 face = scrGetFace(player.x,player.y);
 

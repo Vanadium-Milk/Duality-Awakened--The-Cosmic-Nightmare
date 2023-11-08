@@ -11,10 +11,9 @@ switch (action) {
 	case "Roll":
 		break;
 }
-// Voltea el sprite hacia la dirección del mouse sin afectar el movimiento
-sprite_index = asset_get_index("sprPlayer" + action + scrGetFace(mouse_x,mouse_y));
 
-
-
-
-
+shield_cooldown -= 1;
+if (shield_cooldown <= 0 && shield < max_shield){
+	shield += .1;
+	shield_cooldown = max_shield_cooldown;
+}

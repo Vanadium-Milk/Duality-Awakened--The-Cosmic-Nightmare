@@ -1,10 +1,10 @@
 /// @description Heal player
-if(health < objPlayer.max_health){
-	if(health + 8 < objPlayer.max_health){
+if(health < inst_Player.max_health){
+	if(health + 8 < inst_Player.max_health){
 		health += 8;
 	}
 	else {
-		health = objPlayer.max_health;
+		health = inst_Player.max_health;
 	}
 	instance_destroy();
 }

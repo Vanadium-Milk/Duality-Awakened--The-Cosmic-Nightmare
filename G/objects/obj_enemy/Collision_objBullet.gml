@@ -5,7 +5,7 @@ scrPlayDmgAnimation(self); //This command triggers the damage animation hosted i
 
 enemy.enemy_health -= objPlayer.guns[objPlayer.weapon.index].damage; // subtracts health based on weapon damage
 
-objPlayer.furia= objPlayer.furia+5;
+objPlayer.furia += 5;
 
 if (enemy.enemy_health <= 0) { //If health goes 0 or below it dies
 	instance_destroy();
