@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_mineral2",
-  "eventList": [],
+  "name": "obj_Collectible",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Drop_Items",
     "path": "folders/Objects/Drop_Items.yy",
   },
-  "parentObjectId": {
-    "name": "obj_Collectible",
-    "path": "objects/obj_Collectible/obj_Collectible.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite59",
-    "path": "sprites/Sprite59/Sprite59.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

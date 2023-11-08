@@ -9,7 +9,10 @@
     "name": "Drop_Items",
     "path": "folders/Objects/Drop_Items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Collectible",
+    "path": "objects/obj_Collectible/obj_Collectible.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

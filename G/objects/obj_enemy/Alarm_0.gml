@@ -1,2 +1,2 @@
 /// @description Destroy particles
-part_system_destroy(_id);
+part_system_destroy(_ps);
