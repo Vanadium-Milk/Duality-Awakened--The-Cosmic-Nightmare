@@ -3,6 +3,7 @@ event_inherited();
 enemy = {
 	sprite: "spr_enemy_flyail",
 	damage: .1,
+	mov_speed: 1,
 	drop_list: [obj_mineral3,obj_mineral4],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 15,
@@ -13,5 +14,5 @@ enemy = {
 	blood_color3: #5B0000,
 	death_intensity: 1
 };
-speed = 1;
-depth = -2048;
+speed = enemy.mov_speed;
+depth = -2048; // This enemy is drawn over every other to appear flying

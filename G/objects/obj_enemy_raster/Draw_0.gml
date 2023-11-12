@@ -1,4 +1,4 @@
-/// @description Inserte aquí la descripción
+/// @description Expand animation and trail
 event_inherited();
 var target_distance = point_distance(x,y,objPlayer.x,objPlayer.y)
 if (target_distance < 60){

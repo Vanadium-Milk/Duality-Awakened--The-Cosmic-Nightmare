@@ -2,7 +2,8 @@
 event_inherited();
 enemy = {
 	sprite: "spr_enemy_raster",
-	damage: .2,
+	damage: 8,
+	mov_speed: .5,
 	drop_list: [acido_raster,acido_raster],
 	drop_chance: 1, //likelyhood of dropping loot (1 out of n)
 	score_value: 25,
@@ -13,7 +14,7 @@ enemy = {
 	blood_color3: #004F2C,
 	death_intensity: 1.6
 };
-speed = .5;
+speed = enemy.mov_speed;
 
 //Trail particle system
 _ps = part_system_create();

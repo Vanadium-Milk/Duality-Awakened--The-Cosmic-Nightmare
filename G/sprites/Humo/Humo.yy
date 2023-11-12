@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Particulas y efectos",
-    "path": "folders/Particulas y efectos.yy",
+    "name": "Particle_systems",
+    "path": "folders/Particle_systems.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -2,7 +2,9 @@ display_set_gui_size(683, 384); //Interface defaults
 
 window_set_fullscreen(true);
 randomise(); //Randomize seed
-audio_play_sound(room1, 1, true);
+
+//Uncomment the following to activate music
+//audio_play_sound(room1, 1, true);
 
 window_set_cursor(cr_none);
 cursor_sprite= aim_cursor;
