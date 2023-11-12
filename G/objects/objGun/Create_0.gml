@@ -11,5 +11,5 @@ weapon = {
 	mag_capacity: 20,
 	mag: 20,
 	bullet_speed: 12,
-	damage: 5
+	damage: 50
 };

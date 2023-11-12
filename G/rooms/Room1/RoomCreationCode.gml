@@ -1,4 +1,5 @@
-display_set_gui_size(683, 384);
+display_set_gui_size(683, 384); //Interface defaults
+
 window_set_fullscreen(true);
 randomise(); //Randomize seed
 audio_play_sound(room1, 1, true);

@@ -1,2 +1,3 @@
-/// @description setting text parametters
-draw_set_font(font_small);
+/// @description Setting text color
+color = #454edf
+display_text = "";
