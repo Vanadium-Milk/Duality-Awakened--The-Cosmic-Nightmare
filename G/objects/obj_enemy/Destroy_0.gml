@@ -31,5 +31,5 @@ if (instance_number(obj_enemy) <= 1){  //When the last enemy dies, the next roun
 	instance_activate_object(obj_interface_text);
 	obj_interface_text.display_text = "ROUND CLEAR";
 	
-	spawn_system.alarm[0] = 600;
+	spawn_system.alarm[0] = spawn_system.round_inbetween * 60;
 }

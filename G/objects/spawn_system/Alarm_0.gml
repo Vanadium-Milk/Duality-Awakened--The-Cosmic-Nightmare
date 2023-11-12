@@ -1,11 +1,13 @@
-/// @description Start the next round
-time_source_destroy(time_source_game,true)
+/// @description Start the next round once the time is over
+time_source_destroy(time_source_game,true); //DON'T DELETE, for some reason it causes huge lag
 
 global.round += 1;
 
+//Showing a disclaimer
 instance_activate_object(obj_interface_text);
 obj_interface_text.display_text = "ROUND " + string(global.round);
-	
+
+//Spawning the actual enemies
 function scrSpawnRandomEnemy(){
 	var spawn_x = 0;
 	var spawn_y = 0;
@@ -19,5 +21,6 @@ function scrSpawnRandomEnemy(){
 	instance_create_layer(spawn_x,spawn_y,"Enemies",scrChooseEnemy());
 }
 
-var spawner = time_source_create(time_source_game,.2,time_source_units_seconds,scrSpawnRandomEnemy,[], power(global.round,2) + 10);
+//You can change how many enemies per round it should spawn, here's n^2 + 10
+var spawner = time_source_create(time_source_game,.5,time_source_units_seconds,scrSpawnRandomEnemy,[], power(global.round,2) + 10);
 time_source_start(spawner);
