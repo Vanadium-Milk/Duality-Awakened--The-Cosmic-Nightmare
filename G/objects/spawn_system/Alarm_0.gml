@@ -16,9 +16,10 @@ function scrSpawnRandomEnemy(){
 		spawn_x = random(room_width);
 		spawn_y = random(room_height);
 	}
-	until (position_empty(spawn_x,spawn_y))
+	//Enemies must spawn free of obstacles and away from player
+	until (position_empty(spawn_x,spawn_y) && point_distance(spawn_x, spawn_y, inst_Player.x, inst_Player.y) > 300)
 
-	instance_create_layer(spawn_x,spawn_y,"Enemies",scrChooseEnemy());
+	instance_create_layer(spawn_x,spawn_y,"Entities",scrChooseEnemy());
 }
 
 //You can change how many enemies per round it should spawn, here's n^2 + 10

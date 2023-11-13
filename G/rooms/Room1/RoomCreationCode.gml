@@ -1,4 +1,7 @@
-display_set_gui_size(683, 384); //Interface defaults
+//Interface defaults
+display_set_gui_size(683, 384); 
+draw_set_color(#dfdf45);
+draw_set_valign(fa_bottom);
 
 window_set_fullscreen(true);
 randomise(); //Randomize seed

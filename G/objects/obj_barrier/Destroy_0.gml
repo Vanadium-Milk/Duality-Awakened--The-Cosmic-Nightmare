@@ -16,7 +16,7 @@ part_type_blend(_ptype1, false);
 part_type_life(_ptype1, 10, 25);
 
 var _pemit1 = part_emitter_create(_ps);
-part_emitter_region(_ps, _pemit1, -8, 8, -38.5, 38.5, ps_shape_rectangle, ps_distr_linear);
+part_emitter_region(_ps, _pemit1, 0, sprite_width, 0, -sprite_height, ps_shape_rectangle, ps_distr_linear);
 part_emitter_burst(_ps, _pemit1, _ptype1, 45);
 
 part_system_position(_ps, x, y);

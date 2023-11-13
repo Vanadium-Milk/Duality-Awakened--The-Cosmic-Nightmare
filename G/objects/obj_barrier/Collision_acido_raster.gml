@@ -1,4 +1,4 @@
-/// @description Raster's acid damage the barrier
+/// @description Raster's acid damages the barrier
 durability -= .1;
 
 if(durability <= 0){

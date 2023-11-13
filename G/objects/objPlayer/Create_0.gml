@@ -1,8 +1,10 @@
 event_inherited();
 action = "Idle";
+pointing = 0;
 speed = 0;
 
-guns = [noone, noone];
+//The third "gun" is for the prop-placing mode, is meant to be empty
+guns = [noone, noone, noone];
 
 weapon = {
 	index: 0,
@@ -23,4 +25,9 @@ max_shield_cooldown = 10;
 rollDirection = 0;
 furia=0;
 
-
+//Prop variable declarations
+placing_prop = false;
+prop_orientation = "H";
+prop_posx = 0;
+prop_posy = 0;
+valid_place = false;

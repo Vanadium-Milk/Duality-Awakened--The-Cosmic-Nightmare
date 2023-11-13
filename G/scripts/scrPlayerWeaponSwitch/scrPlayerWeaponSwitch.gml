@@ -1,7 +1,7 @@
 function scrPlayerWeaponSwitch(){
-	if (keyboard_check_pressed(ord("1"))) {
+	if (mouse_wheel_down()) {
 		weapon.index = 0;
-	} else if (keyboard_check_pressed(ord("2"))) {
+	} else if (mouse_wheel_up()) {
 		weapon.index = 1;
 	}
 }

@@ -4,7 +4,5 @@ function scrGetFace(targetx,targety){
 	
 	// Selects a face based on the angle from multiples of 90, offset is 45 degrees
 	faces = ["R","U","L","D","R"];
-	face = faces[floor((looking + 45)/90)]
-	
-	return face;
+	return faces[floor((looking + 45)/90)];
 }
