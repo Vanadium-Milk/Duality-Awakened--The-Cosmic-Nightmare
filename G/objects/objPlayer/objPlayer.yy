@@ -10,6 +10,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_acidlake","path":"objects/obj_acidlake/obj_acidlake.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":49,"eventType":9,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":50,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -43,8 +44,8 @@
     "path": "sprites/sprPlayerIdleD/sprPlayerIdleD.yy",
   },
   "spriteMaskId": {
-    "name": "sprMask",
-    "path": "sprites/sprMask/sprMask.yy",
+    "name": "spr_collision_mask",
+    "path": "sprites/spr_collision_mask/spr_collision_mask.yy",
   },
   "visible": true,
 }

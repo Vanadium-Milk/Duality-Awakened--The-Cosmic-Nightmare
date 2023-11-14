@@ -12,6 +12,7 @@ enemy = {
 	blood_color1: #FF0000,
 	blood_color2: #960000,
 	blood_color3: #5B0000,
-	death_intensity: 1
+	death_intensity: 1,
+	
 };
 speed = enemy.mov_speed;

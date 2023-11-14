@@ -13,7 +13,7 @@
   "duration": 1.752,
   "parent": {
     "name": "PLAYER",
-    "path": "folders/Objects/Weapons/SONIDOS/PLAYER.yy",
+    "path": "folders/Sounds/PLAYER.yy",
   },
   "preload": false,
   "sampleRate": 44100,

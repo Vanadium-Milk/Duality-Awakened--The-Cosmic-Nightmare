@@ -2,6 +2,7 @@
 max_durability = 50;
 durability = max_durability;
 
-sprite_index = asset_get_index("spr_barrier_" + orientation);
+sprite_suffix = "spr_barrier_"
+orientable = true;
 
 depth = sprite_height - y - 15;

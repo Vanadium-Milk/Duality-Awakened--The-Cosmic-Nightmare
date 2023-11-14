@@ -13,11 +13,11 @@
   "duration": 0.816,
   "parent": {
     "name": "WEAPONS",
-    "path": "folders/Objects/Weapons/SONIDOS/WEAPONS.yy",
+    "path": "folders/Sounds/WEAPONS.yy",
   },
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "snd_bala.mp3",
   "type": 0,
-  "volume": 0.1,
+  "volume": 0.04,
 }

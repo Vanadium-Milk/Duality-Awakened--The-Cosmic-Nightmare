@@ -1,5 +1,5 @@
 /// @description Define parameters
-global.round = 0;
+global.round = 22; //starting round
 round_inbetween = 10 //Seconds in between rounds
 
 instance_activate_object(obj_interface_text);

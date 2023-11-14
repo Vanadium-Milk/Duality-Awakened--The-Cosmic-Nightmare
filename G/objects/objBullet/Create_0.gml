@@ -1,4 +1,5 @@
 /// @description Set particles
+
 _ps_bullet_trail = part_system_create(); 
 part_system_draw_order(_ps_bullet_trail, true);
 part_system_global_space(_ps_bullet_trail, true);

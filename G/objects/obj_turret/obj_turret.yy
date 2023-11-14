@@ -1,19 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objSMG",
+  "name": "obj_turret",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "name": "Props",
+    "path": "folders/Objects/Props.yy",
   },
   "parentObjectId": {
-    "name": "objWeapon",
-    "path": "objects/objWeapon/objWeapon.yy",
+    "name": "obj_prop",
+    "path": "objects/obj_prop/obj_prop.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSMG",
-    "path": "sprites/sprSMG/sprSMG.yy",
+    "name": "spr_turret_base",
+    "path": "sprites/spr_turret_base/spr_turret_base.yy",
   },
   "spriteMaskId": null,
   "visible": true,

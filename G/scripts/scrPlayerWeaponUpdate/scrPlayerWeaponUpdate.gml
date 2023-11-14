@@ -14,7 +14,7 @@ function scrPlayerWeaponUpdate(){
 			var by = y - 25 + lengthdir_y(13, weapon.angle);
 		
 			//creating the bullet
-			scrShootBullet(bx,by,guns[weapon.index].bullet_speed,weapon.angle);
+			scrShootBullet(bx,by,guns[weapon.index].bullet_speed, weapon.angle, guns[weapon.index].fire_sound, guns[weapon.index].damage);
 
 			guns[weapon.index].mag -= 1;
 		

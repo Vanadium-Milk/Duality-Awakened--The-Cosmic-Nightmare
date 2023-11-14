@@ -35,15 +35,19 @@ else{
 
 //Enter place prop mode
 if(placing_prop = true){
+	var prop_sprite_str = selected_prop.sprite_suffix;
 	
 	//Changing orientation
-	if(face == "D" || face == "U"){
-		prop_orientation = "H";
+	if(selected_prop.orientable){
+		if(face == "D" || face == "U"){
+			prop_sprite_str += "H";
+		}
+		else{
+			prop_sprite_str += "V";
+		}
 	}
-	else{
-		prop_orientation = "V";
-	}
-	var prop_sprite = asset_get_index("spr_barrier_" + prop_orientation)
+	
+	prop_sprite = asset_get_index(prop_sprite_str);
 	
 	prop_posx =  mouse_x;
 	prop_posy =  mouse_y;
@@ -61,7 +65,7 @@ if(placing_prop = true){
 	
 	//Check for collisions with anything
 	var color = c_lime
-	if(collision_rectangle(prop_posx + 1, prop_posy - sprite_get_bbox_bottom(prop_sprite) + sprite_get_bbox_top(prop_sprite),prop_posx + sprite_get_bbox_right(prop_sprite),prop_posy - 1,all,true,false)){
+	if(collision_rectangle(prop_posx + 1, prop_posy - sprite_get_bbox_bottom(prop_sprite) + sprite_get_bbox_top(prop_sprite), prop_posx + sprite_get_bbox_right(prop_sprite) - 1, prop_posy - 1,all,true,false)){
 		
 		color = c_red;
 		valid_place = false;

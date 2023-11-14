@@ -18,7 +18,7 @@ function scrSpawnRandomEnemy(){
 	}
 	//Enemies must spawn free of obstacles and away from player
 	until (position_empty(spawn_x,spawn_y) && point_distance(spawn_x, spawn_y, inst_Player.x, inst_Player.y) > 300)
-
+	
 	instance_create_layer(spawn_x,spawn_y,"Entities",scrChooseEnemy());
 }
 

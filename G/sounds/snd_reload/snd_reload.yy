@@ -13,7 +13,7 @@
   "duration": 1.044898,
   "parent": {
     "name": "WEAPONS",
-    "path": "folders/Objects/Weapons/SONIDOS/WEAPONS.yy",
+    "path": "folders/Sounds/WEAPONS.yy",
   },
   "preload": false,
   "sampleRate": 44100,
