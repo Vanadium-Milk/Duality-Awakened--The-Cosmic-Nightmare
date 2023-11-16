@@ -22,6 +22,7 @@ part_emitter_region(_ps_blood, _pemit1, -10, 10, -10, 10, ps_shape_ellipse, ps_d
 part_emitter_burst(_ps_blood, _pemit1, _ptype1, 30 * power(enemy.death_intensity,2));
 
 part_system_position(_ps_blood, x, y);
+part_system_depth(_ps_blood,depth);
 
 if (irandom(enemy.drop_chance - 1) = 0) { //Random chances of getting loot (1 out of 5 in this case)
 	var drop_item = instance_create_layer(x,y,"Drops",choose(enemy.drop_list[0],enemy.drop_list[1])); // obj_drop_item es el nombre del objeto

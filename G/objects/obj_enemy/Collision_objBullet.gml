@@ -7,7 +7,3 @@ instance_destroy(bullet);
 scrPlayDmgAnimation(self); //This command triggers the damage animation hosted in the parent
 
 objPlayer.furia += 5;
-
-if (enemy.enemy_health <= 0) { //If health goes 0 or below it dies
-	instance_destroy();
-}

@@ -1,5 +1,4 @@
 /// @description collide with obstacles
-
 var probing_dist = 10// distance to the obstacle to check, adjust this to debbug
 
 //Collision in X
