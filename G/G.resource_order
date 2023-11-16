@@ -167,7 +167,7 @@
     {"name":"Acid_explosion","order":6,"path":"particles/Acid_explosion/Acid_explosion.yy",},
     {"name":"scrShootBullet","order":4,"path":"scripts/scrShootBullet/scrShootBullet.yy",},
     {"name":"restart","order":1,"path":"objects/restart/restart.yy",},
-    {"name":"objSolid","order":7,"path":"objects/objSolid/objSolid.yy",},
+    {"name":"obj_solid","order":7,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"sprPlayerIdleL","order":3,"path":"sprites/sprPlayerIdleL/sprPlayerIdleL.yy",},
     {"name":"sprUIHPFrame","order":1,"path":"sprites/sprUIHPFrame/sprUIHPFrame.yy",},
     {"name":"sprSolidWorld","order":2,"path":"sprites/sprSolidWorld/sprSolidWorld.yy",},

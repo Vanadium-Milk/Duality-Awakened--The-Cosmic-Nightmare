@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objSolid",
+  "name": "obj_solid",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

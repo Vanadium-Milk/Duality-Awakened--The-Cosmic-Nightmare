@@ -1,7 +1,10 @@
 /// @description collide with force_field
 
 //shrink shield
-instance_place(x,y,obj_force_field).shield_size -= .05;
+var collision = instance_place(x,y,obj_force_field)
+if(collision){
+	collision.shield_size -= .05;
+}
 
 var probing_dist = 10// distance to the obstacle to check, adjust this to debbug
 

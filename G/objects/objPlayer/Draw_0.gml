@@ -65,11 +65,15 @@ if(placing_prop = true){
 	
 	//Check for collisions with anything
 	var color = c_lime
-	if(collision_rectangle(prop_posx + 1, prop_posy - sprite_get_bbox_bottom(prop_sprite) + sprite_get_bbox_top(prop_sprite), prop_posx + sprite_get_bbox_right(prop_sprite) - 1, prop_posy - 1,all,true,false)){
+	
+	var collision = collision_rectangle(prop_posx + 1, prop_posy - sprite_get_bbox_bottom(prop_sprite) + sprite_get_bbox_top(prop_sprite), prop_posx + sprite_get_bbox_right(prop_sprite) - 1, prop_posy - 1,[obj_solid, obj_enemy, obj_entity, obj_prop, obj_acidlake],true,false)
+	
+	if(collision){
 		
 		color = c_red;
 		valid_place = false;
 	}
+	
 	else{
 		valid_place = true;
 	}

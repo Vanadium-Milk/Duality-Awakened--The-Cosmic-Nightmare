@@ -220,7 +220,7 @@
     {"id":{"name":"scrShootBullet","path":"scripts/scrShootBullet/scrShootBullet.yy",},},
     {"id":{"name":"spr_life_bar","path":"sprites/spr_life_bar/spr_life_bar.yy",},},
     {"id":{"name":"restart","path":"objects/restart/restart.yy",},},
-    {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},},
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"sprPlayerIdleL","path":"sprites/sprPlayerIdleL/sprPlayerIdleL.yy",},},
     {"id":{"name":"sprUIHPFrame","path":"sprites/sprUIHPFrame/sprUIHPFrame.yy",},},
     {"id":{"name":"Health","path":"objects/Health/Health.yy",},},
