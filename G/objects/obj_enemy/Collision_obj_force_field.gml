@@ -12,7 +12,7 @@ if(collision){
 	y -= lengthdir_y(20, dir);
 	
 	//Stun the enemies that touch the field
-	speed = 0;
+	step = 0;
 	alarm[0] = 30
 	
 	//Reset shield cooldown

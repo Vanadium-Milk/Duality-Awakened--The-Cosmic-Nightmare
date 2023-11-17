@@ -41,6 +41,9 @@
     "name": "spr_enemy_rasterWalkR",
     "path": "sprites/spr_enemy_rasterWalkR/spr_enemy_rasterWalkR.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_rasterWalkD",
+    "path": "sprites/spr_enemy_rasterWalkD/spr_enemy_rasterWalkD.yy",
+  },
   "visible": true,
 }

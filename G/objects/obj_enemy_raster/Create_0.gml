@@ -1,5 +1,4 @@
 /// @description Set attributes
-event_inherited();
 enemy = {
 	sprite: "spr_enemy_raster",
 	damage: 8,
@@ -15,7 +14,8 @@ enemy = {
 	death_intensity: 1.6,
 	
 };
-speed = enemy.mov_speed;
+
+event_inherited();
 
 //Trail particle system
 _ps = part_system_create();

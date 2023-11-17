@@ -37,6 +37,9 @@
     "name": "spr_enemy_spikyWalkL",
     "path": "sprites/spr_enemy_spikyWalkL/spr_enemy_spikyWalkL.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_spikyWalkD",
+    "path": "sprites/spr_enemy_spikyWalkD/spr_enemy_spikyWalkD.yy",
+  },
   "visible": true,
 }

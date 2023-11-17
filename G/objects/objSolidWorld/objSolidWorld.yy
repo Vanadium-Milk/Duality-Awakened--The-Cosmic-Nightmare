@@ -32,7 +32,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "Rocas_Grandes",
     "path": "sprites/Rocas_Grandes/Rocas_Grandes.yy",

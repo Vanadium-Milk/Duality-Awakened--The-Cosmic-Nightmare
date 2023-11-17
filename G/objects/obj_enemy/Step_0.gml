@@ -1,5 +1,4 @@
-/// @description Follow player, check for health
-direction = point_direction(x, y, target_x, target_y);
+/// @description Mark target position, check for health
 
 target_x = target_entity.x;
 target_y = target_entity.y;

@@ -35,6 +35,9 @@
     "name": "spr_enemy_flyailWalkU",
     "path": "sprites/spr_enemy_flyailWalkU/spr_enemy_flyailWalkU.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_flyailWalkD",
+    "path": "sprites/spr_enemy_flyailWalkD/spr_enemy_flyailWalkD.yy",
+  },
   "visible": true,
 }

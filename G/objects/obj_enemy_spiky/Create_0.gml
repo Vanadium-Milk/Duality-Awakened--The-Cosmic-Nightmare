@@ -1,5 +1,4 @@
 /// @description Set attributes
-event_inherited();
 enemy = {
 	sprite: "spr_enemy_spiky",
 	damage: .8,
@@ -15,4 +14,5 @@ enemy = {
 	death_intensity: 1,
 	
 };
-speed = enemy.mov_speed;
+
+event_inherited();
