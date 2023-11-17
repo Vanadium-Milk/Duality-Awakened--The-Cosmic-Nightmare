@@ -43,6 +43,7 @@
     {"name":"obj_HPBar","order":1,"path":"objects/obj_HPBar/obj_HPBar.yy",},
     {"name":"Electricity","order":10,"path":"particles/Electricity/Electricity.yy",},
     {"name":"spr_landmine","order":8,"path":"sprites/spr_landmine/spr_landmine.yy",},
+    {"name":"spr_thumbnail_shield_tower","order":13,"path":"sprites/spr_thumbnail_shield_tower/spr_thumbnail_shield_tower.yy",},
     {"name":"Sprite32","order":3,"path":"sprites/Sprite32/Sprite32.yy",},
     {"name":"sprGunD","order":8,"path":"sprites/sprGunD/sprGunD.yy",},
     {"name":"sprPlayerRollU","order":4,"path":"sprites/sprPlayerRollU/sprPlayerRollU.yy",},

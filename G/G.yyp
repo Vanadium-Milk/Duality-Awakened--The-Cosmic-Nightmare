@@ -71,6 +71,7 @@
     {"id":{"name":"obj_HPBar","path":"objects/obj_HPBar/obj_HPBar.yy",},},
     {"id":{"name":"Electricity","path":"particles/Electricity/Electricity.yy",},},
     {"id":{"name":"spr_landmine","path":"sprites/spr_landmine/spr_landmine.yy",},},
+    {"id":{"name":"spr_thumbnail_shield_tower","path":"sprites/spr_thumbnail_shield_tower/spr_thumbnail_shield_tower.yy",},},
     {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"sprGunD","path":"sprites/sprGunD/sprGunD.yy",},},
     {"id":{"name":"sprPlayerRollU","path":"sprites/sprPlayerRollU/sprPlayerRollU.yy",},},

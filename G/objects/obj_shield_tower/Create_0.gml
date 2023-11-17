@@ -9,7 +9,7 @@ orientable = false;
 
 depth = - y + 3;
 
-force_field = instance_create_depth(x + 16, y - 9, 301, obj_force_field,{shield_size: 300});
+force_field = instance_create_depth(x + 16, y - 9, 301, obj_force_field,{max_shield_size: 300});
 
 //Electricity particles
 _ps = part_system_create();

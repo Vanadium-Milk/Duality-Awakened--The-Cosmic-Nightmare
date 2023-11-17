@@ -1,10 +1,12 @@
 /// @description Particle settings
 
-sprite_index = sprite_duplicate(spr_shield_tower_ff);
-sprite_collision_mask(sprite_index, false, 2, 0, 0, 600, 360, bboxkind_ellipse, 255);
+//shield attributes
+shield_size = 65;
 
-shield_radius_x = 0;
-shield_radius_y = 0;
+image_xscale = 0
+image_yscale = 0
+
+event_perform(ev_alarm, 0);
 
 //Shield particles
 shield_part_angle = 0;
@@ -39,7 +41,7 @@ part_type_direction(_ptype1_shield, 0, 360, 0, 0);
 part_type_gravity(_ptype1_shield, 0, 270);
 part_type_orientation(_ptype1_shield, 0, 0, 0, 0, false);
 part_type_colour3(_ptype1_shield, $FFFFFF, $FFF600, $FFBB00);
-part_type_alpha3(_ptype1_shield, 1, 1, 0);
+part_type_alpha3(_ptype1_shield, .5, .5, 0);
 part_type_blend(_ptype1_shield, false);
 part_type_life(_ptype1_shield, 30, 140);
 

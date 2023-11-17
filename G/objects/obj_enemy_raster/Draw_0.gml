@@ -9,5 +9,10 @@ if(instance_exists(target_entity)){
 		image_yscale = 60 / target_distance;
 		draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,0,c_lime, 35 / target_distance);
 	}
-	part_system_position(_ps, x, y);
+	
+	else{
+		image_xscale = 1;
+		image_yscale = 1;
+	}
 }
+part_system_position(_ps, x, y);
