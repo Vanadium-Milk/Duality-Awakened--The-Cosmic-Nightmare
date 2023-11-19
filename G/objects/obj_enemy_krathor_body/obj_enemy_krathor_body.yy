@@ -5,6 +5,10 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,12 +33,20 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"type","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"body\"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"leading","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"obj_enemy_krathor_body","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"head","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"obj_enemy_krathor_head","varType":5,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_enemy_krathor_bodyWalkR",
     "path": "sprites/spr_enemy_krathor_bodyWalkR/spr_enemy_krathor_bodyWalkR.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_krathor_bodyWalkR",
+    "path": "sprites/spr_enemy_krathor_bodyWalkR/spr_enemy_krathor_bodyWalkR.yy",
+  },
   "visible": true,
 }

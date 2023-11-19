@@ -31,7 +31,7 @@ function scrPlayerWeaponUpdate(){
 	if((keyboard_check(ord("R")) || (mouse_check_button(mb_left) && guns[weapon.index].mag <= 0)) && guns[weapon.index].mag < guns[weapon.index].mag_capacity && guns[weapon.index].ammo > 0){
 		weapon.frames = 0;
 		weapon.frequency = 50; //Reloading the weapon adds a delay
-		audio_play_sound(guns[weapon.index].reload_sound,1,false)
+		audio_play_sound(guns[weapon.index].reload_sound,2,false)
 			
 		if(guns[weapon.index].ammo > guns[weapon.index].mag_capacity){ //This is just to make sure it doesn't run into negatives
 			guns[weapon.index].ammo -= guns[weapon.index].mag_capacity - guns[weapon.index].mag;

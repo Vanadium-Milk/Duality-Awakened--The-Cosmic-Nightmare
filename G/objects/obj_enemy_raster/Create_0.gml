@@ -1,4 +1,7 @@
 /// @description Set attributes
+
+mp_potential_settings(30, 5, 5, true);
+
 enemy = {
 	sprite: "spr_enemy_raster",
 	damage: 8,
@@ -13,6 +16,8 @@ enemy = {
 	blood_color3: #004F2C,
 	death_intensity: 1.6,
 	
+	//pathfinding grid
+	obstacle_grid: global.grid,
 };
 
 event_inherited();

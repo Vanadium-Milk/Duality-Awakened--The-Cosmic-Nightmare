@@ -26,7 +26,7 @@ rollDirection = 0;
 furia=0;
 
 //Prop variable declarations
-selected_prop = noone;
+selected_prop = obj_barrier;
 placing_prop = false;
 prop_sprite = spr_collision_mask; //Just a placeholder
 prop_posx = 0;

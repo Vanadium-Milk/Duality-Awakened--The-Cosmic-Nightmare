@@ -14,4 +14,6 @@ else{
 	image_yscale = 1;
 }
 
-part_system_position(_ps, x, y);
+if(part_system_exists(_ps)){
+	part_system_position(_ps, x, y);
+}

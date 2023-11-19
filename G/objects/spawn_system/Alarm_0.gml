@@ -17,7 +17,7 @@ function scrSpawnRandomEnemy(){
 		spawn_y = random(room_height);
 	}
 	//Enemies must spawn free of obstacles and away from player
-	until (position_empty(spawn_x,spawn_y) && point_distance(spawn_x, spawn_y, inst_Player.x, inst_Player.y) > 300)
+	until (position_empty(spawn_x,spawn_y) && point_distance(spawn_x, spawn_y, inst_Player.x, inst_Player.y) > 600 && mp_grid_get_cell(global.grid_no_liquid, spawn_x div 32, spawn_y div 32) == 0)
 	
 	instance_create_layer(spawn_x,spawn_y,"Entities",scrChooseEnemy());
 }

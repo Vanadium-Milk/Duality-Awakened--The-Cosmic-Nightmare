@@ -1,4 +1,4 @@
-/// @description Aim cannon
+/// @description Aim and shoot
 
 point_target = 0; //Reset default angle
 

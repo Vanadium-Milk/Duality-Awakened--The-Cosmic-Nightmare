@@ -14,8 +14,8 @@
     "path": "folders/Objects/Props.yy",
   },
   "parentObjectId": {
-    "name": "obj_prop_targeteble",
-    "path": "objects/obj_prop_targeteble/obj_prop_targeteble.yy",
+    "name": "obj_prop_targeteable",
+    "path": "objects/obj_prop_targeteable/obj_prop_targeteable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

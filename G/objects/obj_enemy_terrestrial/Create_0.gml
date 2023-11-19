@@ -1,4 +1,4 @@
-/// @description Set motion planning
+/// @description start chasing the player
 event_inherited();
 
-mp_potential_settings(30, 5, 5, true);
+path = path_add();

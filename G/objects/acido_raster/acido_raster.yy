@@ -12,10 +12,7 @@
     "name": "Drop_Items",
     "path": "folders/Objects/Drop_Items.yy",
   },
-  "parentObjectId": {
-    "name": "obj_acidlake",
-    "path": "objects/obj_acidlake/obj_acidlake.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

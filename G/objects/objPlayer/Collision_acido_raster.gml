@@ -1,0 +1,1 @@
+scrPlayerTakeDamage(.2);

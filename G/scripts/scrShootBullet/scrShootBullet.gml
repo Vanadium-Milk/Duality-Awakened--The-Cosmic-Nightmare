@@ -2,5 +2,6 @@
 function scrShootBullet(xpos,ypos,setSpeed,setDirection,sound,setDamage){
 	instance_create_layer(xpos,ypos,"Projectiles",objBullet,{speed: setSpeed, direction: setDirection, image_angle: setDirection, damage:setDamage});
 
-	audio_play_sound(sound, 1, false); //plays the sound effect
+	//Play the sound with varying volume
+	audio_play_sound_at(sound, x, y, 0, 200, 1000, 2.5, false, 1);
 }

@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_bala.mp3",
   "type": 0,
-  "volume": 0.04,
+  "volume": 0.08,
 }
