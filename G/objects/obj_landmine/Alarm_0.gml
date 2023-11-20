@@ -9,6 +9,7 @@ for (var i = 0; i < n_enemies; i++){
 	}
 	
 	else{
+		scrPlayDmgAnimation(enemies_on_radius[|i]);
 		enemies_on_radius[|i].enemy.enemy_health =- 20;
 	}
 }

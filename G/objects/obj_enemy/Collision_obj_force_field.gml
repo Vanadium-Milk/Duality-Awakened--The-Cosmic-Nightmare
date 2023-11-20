@@ -1,7 +1,7 @@
 /// @description collide with force_field
 
 //shrink shield
-var collision = collision_point(x,y,obj_force_field, true, true);
+var collision = instance_place(x,y,obj_force_field);
 if(collision){
 	collision.shield_size -= enemy.damage / 3;
 	

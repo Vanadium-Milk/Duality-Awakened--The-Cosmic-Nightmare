@@ -3,12 +3,15 @@
 function scrPlayerTakeDamage(damage){
 	inst_Player.shield_cooldown = 600;
 	
-	if (inst_Player.shield >= 0){
-		inst_Player.shield -= damage;
+	if (inst_Player.shield < damage){
+		damage -= inst_Player.shield;
+		inst_Player.shield = 0;
+		health -= damage;
 	}
 	else {
-		health -= damage; // Resta 10 puntos de vida (ajusta según tu juego)
+		inst_Player.shield -= damage;
 	}
+	
 	scrPlayDmgAnimation(inst_Player);
 
 	if (health <= 0) {

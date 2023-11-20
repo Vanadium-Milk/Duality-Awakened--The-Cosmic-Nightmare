@@ -21,3 +21,5 @@ part_emitter_burst(_ps, _pemit1, _ptype1, 90);
 
 part_system_position(_ps, x, y);
 part_system_depth(_ps,-y);
+
+audio_play_sound_at(snd_explosion, x, y, 0, 200, 1000, 2.5, false, 3);
