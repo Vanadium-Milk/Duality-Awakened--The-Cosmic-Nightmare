@@ -52,6 +52,11 @@
   ],
   "isDnd": false,
   "layers": [
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Mask","animationFPS":15.0,"animationSpeedType":0,"colour":0,"depth":-2148,"effectEnabled":true,"effectType":"_filter_mask","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_MaskStart","type":0,"value":"1",},
+        {"name":"g_MaskEnd","type":0,"value":"0",},
+        {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
+      ],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Glow","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":-2048,"effectEnabled":true,"effectType":"_effect_blend_ext","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_BlendExt_Src","type":0,"value":"2",},
         {"name":"g_BlendExt_Dest","type":0,"value":"2",},
@@ -80,6 +85,7 @@
         {"resourceType":"GMRParticleSystem","resourceVersion":"1.0","name":"particle_547AF11A","colour":4294967295,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"particleSystemId":{"name":"Humo_chiquito","path":"particles/Humo_chiquito/Humo_chiquito.yy",},"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":241.01703,"y":1010.0,},
       ],"depth":-2047,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Projectiles","depth":-2040,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Sequences","assets":[],"depth":-1940,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","depth":0,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65F0988C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Health","path":"objects/Health/Health.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":496.0,"y":1024.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61D2806","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Shield","path":"objects/Shield/Shield.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":976.0,"y":912.0,},

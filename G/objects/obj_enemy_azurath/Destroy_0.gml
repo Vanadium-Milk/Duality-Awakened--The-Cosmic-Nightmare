@@ -71,7 +71,7 @@ if(charge >= 3){
 		}
 		
 		else if(entities_on_radius[|i] == inst_Player){
-			scrPlayerTakeDamage(20);
+			scrPlayerTakeDamage(13);
 		}
 		
 		else if(object_get_parent(entities_on_radius[|i].object_index) == obj_prop_targeteable){

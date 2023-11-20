@@ -16,6 +16,8 @@ switch (action) {
 		
 	case "Roll":
 		break;
+	case "Dead":
+		break;
 }
 
 //Shield mechanics
