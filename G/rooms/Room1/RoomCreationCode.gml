@@ -10,7 +10,7 @@ window_set_fullscreen(true);
 randomise(); //Randomize seed
 
 //Uncomment the following to activate music
-//audio_play_sound(room1, 1, true);
+//audio_play_sound(room1, 0, true);
 
 window_set_cursor(cr_none);
 cursor_sprite= aim_cursor;

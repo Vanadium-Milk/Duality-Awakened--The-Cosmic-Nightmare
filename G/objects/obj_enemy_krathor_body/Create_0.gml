@@ -15,4 +15,6 @@ enemy = {
 	death_intensity: 1,
 };
 
+shadow_size = 0;
+
 event_inherited();

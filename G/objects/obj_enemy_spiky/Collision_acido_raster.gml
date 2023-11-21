@@ -1,3 +1,2 @@
 /// @description Take acid damage
-enemy.enemy_health -= .3;
-scrPlayDmgAnimation(self);
+scr_enemy_take_damage(self, .3);

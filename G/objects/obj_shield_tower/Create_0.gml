@@ -7,6 +7,8 @@ durability = max_durability;
 sprite_suffix = "spr_shield_tower"
 orientable = false;
 
+shadow_size = 18;
+
 depth = - y + 3;
 
 force_field = instance_create_depth(x + 16, y - 9, 301, obj_force_field,{max_shield_size: 300});

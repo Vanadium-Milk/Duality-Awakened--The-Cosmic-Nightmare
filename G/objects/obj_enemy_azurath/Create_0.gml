@@ -8,12 +8,14 @@ enemy = {
 	score_value: 15,
 	enemy_health: 30,
 	//Attributes for death event
-	blood_color1: #FF0000,
-	blood_color2: #960000,
-	blood_color3: #5B0000,
-	death_intensity: 1,
+	blood_color1: c_aqua,
+	blood_color2: #1a0787,
+	blood_color3: #0f054b,
+	death_intensity: 1.3,
 	
 };
+
+shadow_size = 15;
 
 colliding_shield = noone;
 charge = 0;

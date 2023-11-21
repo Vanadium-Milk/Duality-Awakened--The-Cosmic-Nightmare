@@ -1,11 +1,7 @@
 /// @description Recieve damage from barrier
-enemy.enemy_health -= .05;
-step = enemy.mov_speed * 0.25; //Spike barriers also reduce the speed
-scrPlayDmgAnimation(self);
+scr_enemy_take_damage(self, .05);
 
-if (enemy.enemy_health <= 0) { //If health goes 0 or below it dies
-	instance_destroy();
-}
+step = enemy.mov_speed * 0.25; //Spike barriers also reduce the speed
 if(not instance_position(x,y,obj_barrier)){
 	step = enemy.mov_speed;
 }

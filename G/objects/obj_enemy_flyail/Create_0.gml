@@ -15,4 +15,6 @@ enemy = {
 	
 };
 
+shadow_size = 10;
+
 event_inherited();

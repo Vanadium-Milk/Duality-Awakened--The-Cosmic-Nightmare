@@ -3,9 +3,8 @@ time_source_destroy(time_source_game,true); //DON'T DELETE, for some reason it c
 
 global.round += 1;
 
-//Showing a disclaimer
-instance_activate_object(obj_interface_text);
-obj_interface_text.display_text = "ROUND " + string(global.round);
+//Showing the round number
+scr_display_message("ROUND " + string(global.round));
 
 //Spawning the actual enemies
 function scrSpawnRandomEnemy(){

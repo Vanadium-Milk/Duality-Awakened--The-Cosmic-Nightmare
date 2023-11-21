@@ -7,7 +7,7 @@ enemy = {
 	drop_list: [obj_mineral1,obj_mineral2],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 10,
-	enemy_health: 20,
+	enemy_health: 25,
 	
 	//Attributes for death event
 	blood_color1: #FF0000,
@@ -18,5 +18,7 @@ enemy = {
 	//pathfinding grid
 	obstacle_grid: global.grid,
 };
+
+shadow_size = 12;
 
 event_inherited();

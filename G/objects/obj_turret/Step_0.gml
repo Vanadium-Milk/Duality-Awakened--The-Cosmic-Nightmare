@@ -13,7 +13,7 @@ if(instance_exists(obj_enemy)){
 		
 		//Shoot
 		if(fire_rate_refresh <= 0){
-			scrShootBullet(rot_axis_x + lengthdir_x(10, pointing), rot_axis_y + lengthdir_y(10, pointing), 8, pointing, snd_bala, 3);
+			scrShootBullet(rot_axis_x + lengthdir_x(10, pointing), rot_axis_y + lengthdir_y(10, pointing), 8, pointing, snd_bala, 3, obj_projectile_bullet);
 			fire_rate_refresh = fire_rate;
 			
 			frame += 1; //Play fire animation

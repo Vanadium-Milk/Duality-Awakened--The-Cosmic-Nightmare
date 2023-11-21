@@ -18,6 +18,8 @@ enemy = {
 	obstacle_grid: global.grid_no_liquid,
 };
 
+shadow_size = 0;
+
 event_inherited();
 
 body_offset = 39 //This regulates how far beneath the other body parts appear (must be a multiple of 3)

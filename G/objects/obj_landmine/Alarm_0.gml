@@ -1,6 +1,6 @@
 /// @description Detonation
 var enemies_on_radius = ds_list_create();
-var n_enemies = collision_circle_list(x, y, 60, [obj_enemy, obj_landmine], false, true, enemies_on_radius, false);
+var n_enemies = collision_circle_list(x, y, 60, [obj_enemy, obj_landmine, obj_player], false, true, enemies_on_radius, false);
 
 for (var i = 0; i < n_enemies; i++){
 	
@@ -8,9 +8,12 @@ for (var i = 0; i < n_enemies; i++){
 		scrTriggerLandmine(enemies_on_radius[|i]);
 	}
 	
+	else if((enemies_on_radius[|i] == inst_Player)){
+		scrPlayerTakeDamage(10);
+	}
+	
 	else{
-		scrPlayDmgAnimation(enemies_on_radius[|i]);
-		enemies_on_radius[|i].enemy.enemy_health =- 20;
+		scr_enemy_take_damage(enemies_on_radius[|i], 20);
 	}
 }
 

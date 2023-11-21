@@ -14,5 +14,8 @@ function scrChooseEnemy(){
 	obj_enemy_raster,
 	obj_enemy_krathor_head,
 	obj_enemy_azurath,
-	obj_enemy_azurath);
+	obj_enemy_azurath,
+	obj_enemy_arpik,
+	obj_enemy_arpik,
+	obj_enemy_arpik);
 }

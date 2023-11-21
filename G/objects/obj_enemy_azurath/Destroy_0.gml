@@ -79,8 +79,7 @@ if(charge >= 3){
 		}
 		
 		else{
-			scrPlayDmgAnimation(entities_on_radius[|i]);
-			entities_on_radius[|i].enemy.enemy_health =- 15;
+			scr_enemy_take_damage(entities_on_radius[|i], 15);
 		}
 	}
 

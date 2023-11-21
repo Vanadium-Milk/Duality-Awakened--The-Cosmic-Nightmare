@@ -20,6 +20,8 @@ enemy = {
 	obstacle_grid: global.grid,
 };
 
+shadow_size = 15;
+
 event_inherited();
 
 //Trail particle system
