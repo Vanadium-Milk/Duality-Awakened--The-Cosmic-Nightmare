@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "room1",
+  "name": "snd_room1",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "room1.mp3",
+  "soundFile": "snd_room1.mp3",
   "type": 0,
   "volume": 0.28,
 }

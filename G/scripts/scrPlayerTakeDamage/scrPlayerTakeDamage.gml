@@ -26,6 +26,9 @@ function scrPlayerTakeDamage(damage){
 
 			//show "darken" effect
 			layer_set_visible("Mask", true);
+			
+			//Zoom in
+			camera_set_view_size(view_camera[0], view_wport[0]/3, view_hport[0]/3);
 		
 			function bckg_animate(index) {
 				var current = layer_background_get_alpha(index);
