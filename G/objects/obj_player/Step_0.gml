@@ -28,7 +28,7 @@ if (shield_cooldown <= 0 && shield < max_shield){
 }
 
 //Prop commands
-if(keyboard_check(vk_escape) && placing_prop){
+if(keyboard_check(vk_escape) && placing_prop && selected_prop != global.props[0]){
 	placing_prop = false;
 	weapon.index = 0;
 }

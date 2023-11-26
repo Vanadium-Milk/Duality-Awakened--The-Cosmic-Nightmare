@@ -20,8 +20,10 @@ enemy = {
 
 shadow_size = 0;
 
+weakened = false;
+
 //Update its own index on the array
-obj_guide.discovered_enemies[3].discovered = true;
+global.enemies[3].discovered = true;
 
 event_inherited();
 

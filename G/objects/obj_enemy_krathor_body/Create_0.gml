@@ -17,4 +17,6 @@ enemy = {
 
 shadow_size = 0;
 
+weakened = false;
+
 event_inherited();

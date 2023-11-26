@@ -2,7 +2,7 @@
 
 var bullet = instance_place(x,y,obj_projectile_bullet);
 
-if(type == "tail"){
+if(type == "tail" || weakened){
 	scr_enemy_take_damage(self, bullet.damage);
 }
 else{

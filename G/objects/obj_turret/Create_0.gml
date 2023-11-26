@@ -5,12 +5,7 @@ sprite_index = spr_turret_base
 max_durability = 30;
 durability = max_durability;
 
-sprite_suffix = "spr_turret_icon";
-orientable = false;
-
 shadow_size = 10;
-
-depth = -y
 
 //Variables for the cannon
 pointing = 0;

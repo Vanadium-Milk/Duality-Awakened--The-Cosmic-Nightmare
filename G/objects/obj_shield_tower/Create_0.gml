@@ -4,9 +4,6 @@ event_inherited();
 max_durability = 100;
 durability = max_durability;
 
-sprite_suffix = "spr_shield_tower"
-orientable = false;
-
 shadow_size = 18;
 
 depth = - y + 3;

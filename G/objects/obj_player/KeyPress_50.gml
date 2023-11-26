@@ -1,7 +1,7 @@
 /// @description Enter prop-placing mode
 if(!placing_prop){
 	placing_prop = true
-	selected_prop = obj_turret;
+	selected_prop = global.props[4];
 	weapon.index = 2;
 }
 else {

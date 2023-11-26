@@ -1,7 +1,7 @@
 /// @description Enter prop-placing mode
 if(!placing_prop){
 	placing_prop = true
-	selected_prop = obj_barrier;
+	selected_prop = global.props[3];
 	weapon.index = 2;
 }
 else {

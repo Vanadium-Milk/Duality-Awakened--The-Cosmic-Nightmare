@@ -1,2 +1,2 @@
 /// @description Hide automatically
-instance_deactivate_object(self);
+display_text = "";

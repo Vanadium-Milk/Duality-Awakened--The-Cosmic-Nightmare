@@ -18,7 +18,7 @@ enemy = {
 shadow_size = 15;
 
 //Update its own index on the array
-obj_guide.discovered_enemies[4].discovered = true;
+global.enemies[4].discovered = true;
 
 colliding_shield = noone;
 charge = 0;

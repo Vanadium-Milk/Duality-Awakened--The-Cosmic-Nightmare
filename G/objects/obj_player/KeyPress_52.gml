@@ -1,7 +1,7 @@
 /// @description Enter prop-placing mode
 if(!placing_prop){
 	placing_prop = true
-	selected_prop = obj_shield_tower;
+	selected_prop = global.props[6];
 	weapon.index = 2;
 }
 else {

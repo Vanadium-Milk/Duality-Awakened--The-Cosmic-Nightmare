@@ -27,10 +27,10 @@ max_shield_cooldown = 10;
 rollDirection = 0;
 furia=0;
 
-//Prop variable declarations
-selected_prop = obj_barrier;
-placing_prop = false;
-prop_sprite = spr_collision_mask; //Just a placeholder
+//Starting with the base placement
+selected_prop = global.props[0];
+placing_prop = true;
+prop_sprite = spr_base;
 prop_posx = 0;
 prop_posy = 0;
 valid_place = false;

@@ -1,7 +1,11 @@
-// Los recursos de Script han cambiado para la v2.3.0 Consulta
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
-function scr_display_message(message_str){
-	instance_activate_object(obj_interface_text);
+///@description Sets the interface_text object to display the given string
+///@param {string} message_str The text to display
+///@param {real} duration The seconds the message will last (optional, message does not hide if omitted)
+
+function scr_display_message(message_str, duration){
 	obj_interface_text.display_text = message_str;
-	obj_interface_text.alarm[0] = 240;
+	
+	if(duration != undefined){
+		obj_interface_text.alarm[0] = duration * 60;
+	}
 }

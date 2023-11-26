@@ -29,7 +29,7 @@ if (irandom(enemy.drop_chance - 1) = 0) { //Random chances of getting loot (1 ou
 }
 if (instance_number(obj_enemy) <= 1){  //When the last enemy dies, the next round starts
 	
-	scr_display_message("ROUND CLEAR");
+	scr_display_message("ROUND CLEAR", 4);
 	
 	spawn_system.alarm[0] = spawn_system.round_inbetween * 60;
 }

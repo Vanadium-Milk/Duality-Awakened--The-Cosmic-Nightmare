@@ -1,2 +1,2 @@
-/// @description Inserte aquí la descripción
+/// @description Player collects the item
 instance_destroy();
