@@ -3,7 +3,7 @@ enemy = {
 	sprite: "spr_enemy_flyail",
 	damage: .1,
 	mov_speed: 1.2,
-	drop_list: [obj_mineral3,obj_mineral4],
+	drop_list: [obj_mineral_aetherium,obj_mineral_chronium],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 15,
 	enemy_health: 15,
@@ -16,5 +16,8 @@ enemy = {
 };
 
 shadow_size = 10;
+
+//Update its own index on the array
+obj_guide.discovered_enemies[1].discovered = true;
 
 event_inherited();

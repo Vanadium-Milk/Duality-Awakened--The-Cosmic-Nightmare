@@ -4,7 +4,7 @@ enemy = {
 	sprite: "spr_enemy_krathor_head",
 	damage: 1.6,
 	mov_speed: 1,
-	drop_list: [obj_mineral5, obj_mineral6],
+	drop_list: [obj_mineral_coriumite, obj_mineral_pyrestone],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 50,
 	enemy_health: 40,
@@ -19,6 +19,9 @@ enemy = {
 };
 
 shadow_size = 0;
+
+//Update its own index on the array
+obj_guide.discovered_enemies[3].discovered = true;
 
 event_inherited();
 

@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite49",
-    "path": "sprites/Sprite49/Sprite49.yy",
+    "name": "spr_prop_medkit",
+    "path": "sprites/spr_prop_medkit/spr_prop_medkit.yy",
   },
   "spriteMaskId": null,
   "visible": true,

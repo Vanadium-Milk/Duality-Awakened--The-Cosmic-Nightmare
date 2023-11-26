@@ -33,11 +33,6 @@ if(keyboard_check(vk_escape) && placing_prop){
 	weapon.index = 0;
 }
 
-if(placing_prop == true && mouse_check_button(mb_left) && valid_place){
-	
-	instance_create_layer(prop_posx, prop_posy, "Entities", selected_prop,{sprite_index: prop_sprite})
-}
-
 //Move the audio listener
 if (x != xprevious || y != yprevious)
 {

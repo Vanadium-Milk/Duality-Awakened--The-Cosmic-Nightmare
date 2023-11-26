@@ -3,7 +3,7 @@ enemy = {
 	sprite: "spr_enemy_azurath",
 	damage: .5,
 	mov_speed: 1,
-	drop_list: [obj_mineral4,obj_mineral2],
+	drop_list: [obj_mineral_cryonite,obj_mineral_aetherium],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 15,
 	enemy_health: 30,
@@ -16,6 +16,9 @@ enemy = {
 };
 
 shadow_size = 15;
+
+//Update its own index on the array
+obj_guide.discovered_enemies[4].discovered = true;
 
 colliding_shield = noone;
 charge = 0;

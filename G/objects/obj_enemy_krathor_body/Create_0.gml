@@ -4,7 +4,7 @@ enemy = {
 	sprite: "spr_enemy_krathor_" + type,
 	damage: 1.6,
 	mov_speed: 1,
-	drop_list: [obj_mineral1,obj_mineral2],
+	drop_list: [obj_mineral_coriumite,obj_mineral_chronium],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 50,
 	enemy_health: 40,

@@ -4,7 +4,7 @@ enemy = {
 	sprite: "spr_enemy_spiky",
 	damage: .8,
 	mov_speed: .8,
-	drop_list: [obj_mineral1,obj_mineral2],
+	drop_list: [obj_mineral_coriumite,obj_mineral_xenthrite],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 10,
 	enemy_health: 25,
@@ -20,5 +20,8 @@ enemy = {
 };
 
 shadow_size = 12;
+
+//Update its own index on the array
+obj_guide.discovered_enemies[0].discovered = true;
 
 event_inherited();

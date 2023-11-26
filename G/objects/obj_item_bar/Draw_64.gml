@@ -3,10 +3,10 @@
 draw_sprite(spr_item_bar_frame,0,display_get_gui_width(),display_get_gui_height());
 
 //Prop icons
-draw_sprite(spr_thumbnail_barrier,0,display_get_gui_width()-234,display_get_gui_height()-1);
-draw_sprite(spr_thumbnail_turret,0,display_get_gui_width()-206,display_get_gui_height()-1);
-draw_sprite(spr_thumbnail_landmine, 0, display_get_gui_width()-178, display_get_gui_height()-1);
-draw_sprite(spr_thumbnail_shield_tower, 0, display_get_gui_width() - 150, display_get_gui_height() - 1);
+draw_sprite(spr_icon_prop, 3, display_get_gui_width() - 234, display_get_gui_height() - 27);
+draw_sprite(spr_icon_prop, 4, display_get_gui_width() - 206, display_get_gui_height() - 27);
+draw_sprite(spr_icon_prop, 5, display_get_gui_width() - 178, display_get_gui_height() - 27);
+draw_sprite(spr_icon_prop, 6, display_get_gui_width() - 150, display_get_gui_height() - 27);
 
 //Text beneath thumbails
 draw_set_halign(fa_right);

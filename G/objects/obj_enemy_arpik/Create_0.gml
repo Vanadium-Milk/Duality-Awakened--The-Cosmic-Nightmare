@@ -4,7 +4,7 @@ enemy = {
 	sprite: "spr_enemy_arpik",
 	damage: 1,
 	mov_speed: .8,
-	drop_list: [obj_mineral3,obj_mineral5],
+	drop_list: [obj_mineral_xenthrite,obj_mineral_chronium],
 	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
 	score_value: 20,
 	enemy_health: 18,
@@ -20,5 +20,8 @@ enemy = {
 };
 
 shadow_size = 10;
+
+//Update its own index on the array
+obj_guide.discovered_enemies[5].discovered = true;
 
 event_inherited();
