@@ -2,10 +2,10 @@
 
 enemy = {
 	sprite: "spr_enemy_arpik",
-	damage: 1,
+	damage: .6,
 	mov_speed: .8,
 	drop_list: [obj_mineral_xenthrite,obj_mineral_chronium],
-	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
+	drop_chance: 2, //likelyhood of dropping loot (1 out of n)
 	score_value: 20,
 	enemy_health: 18,
 	

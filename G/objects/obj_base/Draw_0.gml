@@ -1,7 +1,13 @@
 /// @description Show interaction dialogue
-event_inherited();
 
-if(point_distance(x + 16, y, inst_Player.x, inst_Player.y) < 60){
+//Cast shadow below
+draw_set_alpha(.3);
+var centerx = x + (sprite_width/2) - sprite_get_xoffset(sprite_index);
+draw_ellipse_color(centerx - shadow_size, y - shadow_size*.6, centerx + shadow_size, y + shadow_size*.6, c_black, c_black, false)
+
+draw_set_alpha(1);
+
+if(nearby){
 	draw_set_font(fnt_keys);
 	draw_set_halign(fa_center)
 	draw_set_color(#dfdf45);

@@ -4,7 +4,7 @@ enemy = {
 	damage: .5,
 	mov_speed: 1,
 	drop_list: [obj_mineral_cryonite,obj_mineral_aetherium],
-	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
+	drop_chance: 2, //likelyhood of dropping loot (1 out of n)
 	score_value: 15,
 	enemy_health: 30,
 	//Attributes for death event

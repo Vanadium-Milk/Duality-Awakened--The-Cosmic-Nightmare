@@ -2,10 +2,10 @@
 
 enemy = {
 	sprite: "spr_enemy_krathor_head",
-	damage: 1.6,
+	damage: .8,
 	mov_speed: 1,
 	drop_list: [obj_mineral_coriumite, obj_mineral_pyrestone],
-	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
+	drop_chance: 2, //likelyhood of dropping loot (1 out of n)
 	score_value: 50,
 	enemy_health: 40,
 	//Attributes for death event

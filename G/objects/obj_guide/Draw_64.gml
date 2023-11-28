@@ -83,6 +83,7 @@ if(paused){
 			cell_w = 28;
 			cell_h = 26;
 			
+			//Show prop grid
 			for (var row = 0; row < rows; row ++){
 				for(var col = 0; col < cols; col ++){
 					var prop_index = col + (row * 8);
@@ -110,21 +111,26 @@ if(paused){
 				draw_sprite(prop_spr, frame, origin_x + 135 - (sprite_get_width(prop_spr) / 2) + sprite_get_xoffset(prop_spr), origin_y - 90);
 				
 				draw_set_halign(fa_left);
-				draw_set_font(fnt_small);
-				draw_set_color(#dfdf45);
-				
-				draw_text(origin_x + 80, origin_y - 60, global.props[selection_index].name);
-				draw_text(origin_x + 80, origin_y + 80, "COST:");
-				
 				draw_set_font(fnt_paragraph);
 				draw_set_color(#b95fed);
 				draw_set_valign(fa_top);
 				draw_text_ext(origin_x + 80, origin_y - 58, global.props[selection_index].description, 10, 105);
 				draw_set_valign(fa_bottom);
 				
+				draw_set_font(fnt_small);
+				draw_set_color(#dfdf45);
+				
+				draw_text(origin_x + 80, origin_y - 60, global.props[selection_index].name);
+				draw_text(origin_x + 80, origin_y + 80, "COST:");
+				
+				draw_set_color(c_white);
+				draw_set_halign(fa_right);
+				
+				//Draw the required resources and amount
 				for(var i = 0; i < array_length(global.props[selection_index].cost); i++){
-					var sprite = global.props[selection_index].cost[i]
+					var sprite = global.resources[global.props[selection_index].cost[i][0]]
 					draw_sprite(sprite, frame, origin_x + 80 + sprite_get_xoffset(sprite) + (i * 28), origin_y + 86 + sprite_get_yoffset(sprite));
+					draw_text(origin_x + 88 + sprite_get_xoffset(sprite) + (i * 28), origin_y + 90 + sprite_get_yoffset(sprite), global.props[selection_index].cost[i][1]);
 				}
 			}
 			else{

@@ -1,4 +1,4 @@
-///@description Set the given variables to the row and colum index of a grid based on cursor position.
+///@description Set the given variables to the row and colum index of a grid based on cursor position. Returns true if succesful
 
 ///@param {real} left The left corner of the button grid.
 ///@param {real} top The top corner of the button grid.
@@ -17,5 +17,10 @@ function scr_get_selection_grid(left, top, rows, cols, button_w, button_h, point
 
 		variable_instance_set(self, pointer_x, floor((mouse_gui_x - left)/button_w));
 		variable_instance_set(self, pointer_y, floor((mouse_gui_y - top)/button_h));
+		
+		return true;
+	}
+	else{
+		return false;
 	}
 }

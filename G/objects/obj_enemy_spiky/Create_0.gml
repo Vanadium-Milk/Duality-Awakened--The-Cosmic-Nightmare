@@ -2,10 +2,10 @@
 
 enemy = {
 	sprite: "spr_enemy_spiky",
-	damage: .8,
+	damage: .3,
 	mov_speed: .8,
 	drop_list: [obj_mineral_coriumite,obj_mineral_xenthrite],
-	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
+	drop_chance: 2, //likelyhood of dropping loot (1 out of n)
 	score_value: 10,
 	enemy_health: 25,
 	

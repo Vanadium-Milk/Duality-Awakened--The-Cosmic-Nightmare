@@ -483,6 +483,16 @@ global.enemies = [
 	description: ""
 }];
 
+//Resources -------------------------------------------------------
+global.resources = [
+spr_mineral_coriumite,
+spr_mineral_xenthrite,
+spr_mineral_chronium,
+spr_mineral_aetherium,
+spr_mineral_cryonite,
+spr_mineral_pyrestone,
+];
+
 //PROPS -------------------------------------------------------------------------------------------------------
 global.props = [
 {
@@ -492,7 +502,8 @@ global.props = [
 	description: "",
 	cost: [],
 	sprite_suffix: "spr_base",
-	orientable: false
+	orientable: false,
+	placeable: true
 },
 {
 	name: "BIO-REGEN MEDKIT",
@@ -500,7 +511,16 @@ global.props = [
 	description: "This advanced healing solution rapidly accelerates the body's natural healing process upon application, sealing wounds, and revitalizing the user's health.",
 	sprite_suffix: "spr_prop_medkit",
 	orientable: false,
-	cost: []
+	cost: [[0,1],[1,3]],
+	placeable: false,
+	effect: function(){
+		if(health + 8 < inst_Player.max_health){
+			health += 8;
+		}
+		else {
+			health = inst_Player.max_health;
+		}
+	}
 },
 {
 	name: "AEGIS BARRIER",
@@ -508,43 +528,53 @@ global.props = [
 	description: "The Aegis Barrier functions as a versatile defensive implement, capable of absorbing and deflecting incoming attacks.",
 	sprite_suffix: "spr_prop_shield",
 	orientable: false,
-	cost: []
+	cost: [[0,3],[2, 1]],
+	placeable: false,
+	effect: function(){
+		if(inst_Player.shield < inst_Player.max_shield){
+			inst_Player.shield = inst_Player.max_shield;
+		}
+	}
 },
 {
 	name: "WIRE BARRICADE",
 	object: obj_barrier,
 	discovered: true,
 	description: "",
-	cost: [],
+	cost: [[0,2]],
 	sprite_suffix: "spr_barrier_",
-	orientable: true
+	orientable: true,
+	placeable: true
 },
 {
 	name: "AUTO TURRET",
 	object: obj_turret,
 	discovered: true,
 	description: "",
-	cost: [],
+	cost: [[1,3],[3,2]],
 	sprite_suffix: "spr_turret_icon",
-	orientable: false
+	orientable: false,
+	placeable: true
 },
 {
 	name: "LAND MINE",
 	object: obj_landmine,
 	discovered: true,
 	description: "",
-	cost: [],
+	cost: [[5,1]],
 	sprite_suffix: "spr_landmine",
-	orientable: false
+	orientable: false,
+	placeable: true
 },
 {
 	name: "SHIELD GENERATOR",
 	object: obj_shield_tower,
 	discovered: true,
 	description: "",
-	cost: [],
+	cost: [[2,8],[3,2],[4,6]],
 	sprite_suffix: "spr_shield_tower",
-	orientable: false
+	orientable: false,
+	placeable: true
 },
 {
 	name: "",
@@ -1057,4 +1087,4 @@ global.props = [
 	sprite: noone,
 	cost: []
 }
-]
+];

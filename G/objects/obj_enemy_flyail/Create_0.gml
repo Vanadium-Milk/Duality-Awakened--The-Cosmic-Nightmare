@@ -1,10 +1,10 @@
 /// @description Set attributes
 enemy = {
 	sprite: "spr_enemy_flyail",
-	damage: .1,
+	damage: .35,
 	mov_speed: 1.2,
 	drop_list: [obj_mineral_aetherium,obj_mineral_chronium],
-	drop_chance: 5, //likelyhood of dropping loot (1 out of n)
+	drop_chance: 2, //likelyhood of dropping loot (1 out of n)
 	score_value: 15,
 	enemy_health: 15,
 	//Attributes for death event

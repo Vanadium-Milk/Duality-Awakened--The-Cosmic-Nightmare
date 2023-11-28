@@ -4,12 +4,15 @@ pointing = point_direction(x,y-25,mouse_x,mouse_y);
 switch (action) {
 	case "Idle":
 	case "Walk":
-		scrPlayerMovement();
-		scrPlayerCheckRoll();
 		
-		if(!placing_prop){
-			scrPlayerWeaponUpdate();
-			scrPlayerWeaponSwitch();
+		if(!obj_inventory.active){
+			scrPlayerMovement();
+			scrPlayerCheckRoll();
+		
+			if(!placing_prop){
+				scrPlayerWeaponUpdate();
+				scrPlayerWeaponSwitch();
+			}
 		}
 		
 		break;
@@ -28,9 +31,8 @@ if (shield_cooldown <= 0 && shield < max_shield){
 }
 
 //Prop commands
-if(keyboard_check(vk_escape) && placing_prop && selected_prop != global.props[0]){
+if((keyboard_check(vk_escape) || keyboard_check(vk_tab) || keyboard_check(ord("E"))) && placing_prop){
 	placing_prop = false;
-	weapon.index = 0;
 }
 
 //Move the audio listener

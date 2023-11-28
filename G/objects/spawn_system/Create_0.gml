@@ -1,6 +1,6 @@
 /// @description Define parameters
 global.round = 0; //starting round
-round_inbetween = 10; //Seconds in between rounds
+round_inbetween = 20; //Seconds in between rounds
 
 if(!instance_exists(obj_tutorial)){
 	scr_display_message("GET READY!", 4);
@@ -30,19 +30,19 @@ spawn_chances = [
 },
 {
 	enemy: obj_enemy_krathor_head,
-	initial: 5,
+	initial: 8,
 	max_chance: 1,
 	counter: 0
 },
 {
 	enemy: obj_enemy_arpik,
-	initial: 4,
+	initial: 5,
 	max_chance: 2,
 	counter: 0
 },
 {
 	enemy: obj_enemy_azurath,
-	initial: 6,
+	initial: 7,
 	max_chance: 1,
 	counter: 0
 },

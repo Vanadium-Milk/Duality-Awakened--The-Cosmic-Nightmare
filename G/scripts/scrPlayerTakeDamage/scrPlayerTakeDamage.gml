@@ -29,7 +29,11 @@ function scrPlayerTakeDamage(damage){
 			
 			//Zoom in
 			camera_set_view_size(view_camera[0], view_wport[0]/3, view_hport[0]/3);
-		
+			
+			//fade out music
+			audio_sound_gain(global.lvl_soundtrack, 0, 3000);
+			
+			//slowly darken the screen
 			function bckg_animate(index) {
 				var current = layer_background_get_alpha(index);
 				layer_background_alpha(index, current + .00416)
