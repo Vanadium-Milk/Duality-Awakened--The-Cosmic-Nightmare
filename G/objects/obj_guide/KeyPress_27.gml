@@ -1,5 +1,5 @@
 /// @description Pause game
-if(!inst_Player.placing_prop){
+if(!inst_Player.placing_prop && !inst_inventory.active){
 	if (!paused){
 		paused = true;
 		instance_deactivate_all(true);

@@ -12,12 +12,12 @@
   "conversionMode": 0,
   "duration": 1.097143,
   "parent": {
-    "name": "WEAPONS",
-    "path": "folders/Sounds/WEAPONS.yy",
+    "name": "weapons and props",
+    "path": "folders/Sounds/weapons and props.yy",
   },
   "preload": false,
   "sampleRate": 48000,
   "soundFile": "snd_bala.mp3",
-  "type": 2,
-  "volume": 0.09,
+  "type": 0,
+  "volume": 0.23,
 }

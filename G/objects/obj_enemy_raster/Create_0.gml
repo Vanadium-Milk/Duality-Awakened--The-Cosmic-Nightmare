@@ -15,6 +15,7 @@ enemy = {
 	blood_color2: #009616,
 	blood_color3: #004F2C,
 	death_intensity: 1.6,
+	death_sound: snd_raster,
 	
 	//pathfinding grid
 	obstacle_grid: global.grid,

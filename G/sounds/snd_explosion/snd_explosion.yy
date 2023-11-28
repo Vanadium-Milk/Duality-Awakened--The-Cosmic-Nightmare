@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.880816,
   "parent": {
-    "name": "WEAPONS",
-    "path": "folders/Sounds/WEAPONS.yy",
+    "name": "weapons and props",
+    "path": "folders/Sounds/weapons and props.yy",
   },
   "preload": false,
   "sampleRate": 44100,

@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 7.444875,
+  "duration": 0.444082,
   "parent": {
     "name": "Enemies",
     "path": "folders/Sounds/Enemies.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_spiky.mp3",
   "type": 0,
-  "volume": 0.06,
+  "volume": 0.23,
 }

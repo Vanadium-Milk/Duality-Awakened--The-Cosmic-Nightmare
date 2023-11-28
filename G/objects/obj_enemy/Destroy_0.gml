@@ -24,6 +24,8 @@ part_emitter_burst(_ps_blood, _pemit1, _ptype1, 30 * power(enemy.death_intensity
 part_system_position(_ps_blood, x, y);
 part_system_depth(_ps_blood,depth);
 
+audio_play_sound_at(enemy.death_sound, x, y, 0, 200, 1000, 2.5, false, 3, random_range(.8, 1.2), 0, random_range(.8, 1.2));
+
 if (irandom(enemy.drop_chance - 1) = 0) { //Random chances of getting loot (1 out of 5 in this case)
 	var drop_item = instance_create_layer(x,y,"Drops",choose(enemy.drop_list[0],enemy.drop_list[1])); // obj_drop_item es el nombre del objeto
 }

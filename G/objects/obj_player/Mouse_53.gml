@@ -7,5 +7,7 @@ if(placing_prop == true && valid_place){
 	if(inv_slot[1] <= 0){
 		placing_prop = false;
 		inv_slot[0] = noone;
+		
 	}
+	audio_play_sound(snd_prop_build, 4, false)
 }

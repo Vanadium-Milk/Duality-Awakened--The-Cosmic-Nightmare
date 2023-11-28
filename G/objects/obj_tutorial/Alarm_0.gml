@@ -9,6 +9,6 @@ if(tutorial_step == 4 || tutorial_step == 5){
 if(tutorial_step == 9){
 	scr_display_message(tutorial[tutorial_step], 4);
 	spawn_system.alarm[0] = spawn_system.round_inbetween * 30;
-	global.lvl_soundtrack = audio_play_sound(snd_room1, 0, true, 1);
+	scr_play_music_queue();
 	instance_destroy();
 }

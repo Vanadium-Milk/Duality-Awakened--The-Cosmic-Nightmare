@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 266.55347,
+  "duration": 56.63347,
   "parent": {
     "name": "ROOMS",
     "path": "folders/Sounds/ROOMS.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_bckg3.mp3",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.34,
 }

@@ -12,6 +12,7 @@ enemy = {
 	blood_color2: #1a0787,
 	blood_color3: #0f054b,
 	death_intensity: 1.3,
+	death_sound: snd_azurath,
 	
 };
 

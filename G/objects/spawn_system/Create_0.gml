@@ -4,7 +4,7 @@ round_inbetween = 20; //Seconds in between rounds
 
 if(!instance_exists(obj_tutorial)){
 	scr_display_message("GET READY!", 4);
-	global.lvl_soundtrack = audio_play_sound(snd_room1, 0, true, 1);
+	scr_play_music_queue();
 	alarm[0] = round_inbetween * 30;
 }
 

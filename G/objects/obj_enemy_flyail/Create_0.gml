@@ -12,6 +12,7 @@ enemy = {
 	blood_color2: #960000,
 	blood_color3: #5B0000,
 	death_intensity: 1,
+	death_sound: snd_flyail,
 	
 };
 

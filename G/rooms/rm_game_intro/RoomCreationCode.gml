@@ -8,7 +8,7 @@ draw_set_valign(fa_bottom);
 //audio model
 audio_falloff_set_model(audio_falloff_inverse_distance_clamped);
 
-audio_play_sound(snd_intro, 2, 0);
+global.lvl_soundtrack = audio_play_sound(snd_intro, 2, 0);
 
 window_set_cursor(cr_none);
 cursor_sprite = aim_cursor;

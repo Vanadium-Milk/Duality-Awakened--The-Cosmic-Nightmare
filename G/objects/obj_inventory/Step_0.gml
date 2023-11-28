@@ -5,3 +5,8 @@ if(active){
 else{
 	instance_activate_object(obj_cameraFixer);
 }
+
+//Hide inventory
+if(keyboard_check(vk_escape)){
+	active = false;
+}

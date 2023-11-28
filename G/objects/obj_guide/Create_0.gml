@@ -22,3 +22,6 @@ cell_h = 0;
 
 //sprite animation frame
 frame = 0;
+
+//current music track
+track = 0;
