@@ -7,7 +7,7 @@ enemy = {
 	drop_list: [obj_mineral_coriumite, obj_mineral_pyrestone],
 	drop_chance: 2, //likelyhood of dropping loot (1 out of n)
 	score_value: 50,
-	enemy_health: 40,
+	enemy_health: 15,
 	//Attributes for death event
 	blood_color1: #FF0000,
 	blood_color2: #960000,

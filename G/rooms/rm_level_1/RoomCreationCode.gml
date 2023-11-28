@@ -10,9 +10,6 @@ randomise();
 
 global.new_game = false;
 
-//Uncomment the following to activate music
-global.lvl_soundtrack = audio_play_sound(snd_room1, 0, true);
-
 //animation curves pre-procesing
 animation_size = animcurve_get_channel(ani_damageExpand,0);
 animation_color = animcurve_get_channel(ani_colorChange,2);

@@ -8,6 +8,8 @@ draw_set_valign(fa_bottom);
 //audio model
 audio_falloff_set_model(audio_falloff_inverse_distance_clamped);
 
+audio_play_sound(snd_intro, 2, 0);
+
 window_set_cursor(cr_none);
 cursor_sprite = aim_cursor;
 
@@ -528,7 +530,7 @@ global.props = [
 	description: "The Aegis Barrier functions as a versatile defensive implement, capable of absorbing and deflecting incoming attacks.",
 	sprite_suffix: "spr_prop_shield",
 	orientable: false,
-	cost: [[0,3],[2, 1]],
+	cost: [[2, 4]],
 	placeable: false,
 	effect: function(){
 		if(inst_Player.shield < inst_Player.max_shield){

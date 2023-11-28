@@ -7,7 +7,9 @@ var str = string_copy(dialogue[phrase], 0, counter);
 
 draw_text(display_get_gui_width()/2, display_get_gui_height()/2, str)
 
-counter += 0.2
+counter += 0.15
+
+//If dialog is completed go to the next one
 if(counter >= string_length(dialogue[phrase]) && alarm[0] = -1){
-	alarm[0] = 90;
+	alarm[0] = 120;
 }

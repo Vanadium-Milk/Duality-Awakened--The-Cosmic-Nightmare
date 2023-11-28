@@ -6,9 +6,7 @@ switch (action) {
 	case "Walk":
 		
 		if(!obj_inventory.active){
-			scrPlayerMovement();
-			scrPlayerCheckRoll();
-		
+			scrPlayerMovement();		
 			if(!placing_prop){
 				scrPlayerWeaponUpdate();
 				scrPlayerWeaponSwitch();
