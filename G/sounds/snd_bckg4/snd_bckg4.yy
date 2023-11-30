@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 375.4057,
+  "duration": 304.09143,
   "parent": {
     "name": "ROOMS",
     "path": "folders/Sounds/ROOMS.yy",

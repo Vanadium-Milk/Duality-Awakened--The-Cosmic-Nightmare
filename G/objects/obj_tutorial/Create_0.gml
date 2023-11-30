@@ -1,10 +1,10 @@
 /// @description Start tutorial
-if(!global.new_game){
+if(!global.new_game || inst_Player.sandbox_mode){
 	instance_destroy();
 	exit;
 }
 
-obj_inventory.hotbar[0] = [noone, 0];
+obj_inventory.inventory[0] = [noone, 0];
 
 tutorial = [
 "PRESS WASD TO MOVE",

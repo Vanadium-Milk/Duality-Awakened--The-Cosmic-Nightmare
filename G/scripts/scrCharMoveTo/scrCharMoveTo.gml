@@ -5,7 +5,7 @@ function scrCharMoveTo(spd, dir){
 			var xTo = (x + lengthdir_x(spd, newDir));
 			var yTo = (y + lengthdir_y(spd, newDir));
 	
-			if (!place_meeting(xTo,yTo,obj_solid)) {
+			if (!place_meeting(xTo,yTo,obj_solid) && point_in_rectangle(xTo, yTo, 0, 0, room_width, room_height)) {
 				x = xTo;
 				y = yTo;
 				exit;

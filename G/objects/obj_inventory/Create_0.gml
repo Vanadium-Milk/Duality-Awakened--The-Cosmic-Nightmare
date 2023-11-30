@@ -22,8 +22,8 @@ resources = [0, 0, 0, 0, 0, 0]
 
 //[index in the prop list, quantity]
 
-//Hotbar ---------------------------------------------------------------
-hotbar = [
+//Inventory -------------------------------------------------------
+inventory = [
 [0, 1],
 [noone, 0],
 [noone, 0],
@@ -31,11 +31,7 @@ hotbar = [
 [noone, 0],
 [noone, 0],
 [noone, 0],
-[noone, 0]
-]
-
-//Inventory -------------------------------------------------------
-inventory = [
+[noone, 0],
 [1, 2],
 [noone, 0],
 [noone, 0],

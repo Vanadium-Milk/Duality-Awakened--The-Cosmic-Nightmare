@@ -17,3 +17,6 @@ else{
 counter = 0;
 
 phrase = 0;
+
+origin_x = display_get_width()/4;
+origin_y = display_get_height()/4;

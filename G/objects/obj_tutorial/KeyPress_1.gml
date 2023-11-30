@@ -18,10 +18,3 @@ if(tutorial_step = 6 && keyboard_check(ord("E")) && obj_base.nearby){
 	tutorial_step = 7;
 	scr_display_message(tutorial[tutorial_step]);
 }
-
-//Craft barricade
-if(tutorial_step = 7 && obj_inventory.hotbar[0][0] == 3){
-	tutorial_step = 8;
-	scr_display_message(tutorial[tutorial_step]);
-	alarm[0] = 240;
-}

@@ -2,7 +2,7 @@
 if(placing_prop == true && valid_place){
 	instance_create_depth(prop_posx, prop_posy, -prop_posy, selected_prop.object, {sprite_index: prop_sprite})
 	
-	var inv_slot = obj_inventory.hotbar[selected_slot];
+	var inv_slot = obj_inventory.inventory[selected_slot];
 	inv_slot[1] --;
 	if(inv_slot[1] <= 0){
 		placing_prop = false;

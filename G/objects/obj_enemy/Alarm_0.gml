@@ -6,4 +6,5 @@ if (step < enemy.mov_speed){
 }
 else {
 	step = enemy.mov_speed;
+	stunned = false;
 }

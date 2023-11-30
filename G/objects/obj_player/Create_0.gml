@@ -11,7 +11,7 @@ guns = [
 	reload_sound: snd_reload,
 	object: object_index,
 	ammo: 50,
-	maxAmmo: 999,
+	maxAmmo: 500,
 	frequency: 8, //Wait time for each bullet to fire
 	mag_capacity: 20,
 	mag: 20,
@@ -32,6 +32,11 @@ max_health = 15;
 
 shadow_size = 10;
 
+sound_effect = audio_play_sound(snd_grunt1, 0, false, 0);
+
+//sandbox lets you craft anything for free
+sandbox_mode = false;
+
 //shield attributes
 shield = 10;
 max_shield = 10;
@@ -41,7 +46,7 @@ max_shield_cooldown = 10;
 rollDirection = 0;
 furia=0;
 
-//Starting with the base placement
+//Prop variables
 selected_prop = noone;
 placing_prop = false;
 prop_sprite = spr_collision_mask; //Just a placeholder

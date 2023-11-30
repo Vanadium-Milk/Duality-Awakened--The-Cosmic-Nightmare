@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objSolidWorld",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -34,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Rocas_Grandes",
-    "path": "sprites/Rocas_Grandes/Rocas_Grandes.yy",
+    "name": "spr_rock_wall",
+    "path": "sprites/spr_rock_wall/spr_rock_wall.yy",
   },
   "spriteMaskId": null,
   "visible": true,

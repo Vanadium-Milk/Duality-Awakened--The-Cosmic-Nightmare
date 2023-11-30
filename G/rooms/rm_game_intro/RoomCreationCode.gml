@@ -27,42 +27,72 @@ global.enemies = [
 	discovered: false,
 	description: "Is an amorphous ball  that naturally swims on acid pools, however, this creature is very curious and often will go on land, throws acid as a defense mechanism.",
 	sprite: spr_enemy_spikyWalkR,
-	drops: [spr_mineral_coriumite, spr_mineral_xenthrite]
+	drops: [spr_mineral_coriumite, spr_mineral_xenthrite],
+	
+	object: obj_enemy_spiky,
+	initial: 0,
+	max_chance: 4,
+	counter: 0
 },
 {
 	name: "FLYAIL",
 	discovered: false,
 	description: "This flying creature can only be directed by the wind, however it has a stretching tongue capable of grappling to any surface, acting like an anchor.",
 	sprite: spr_enemy_flyailWalkR,
-	drops: [spr_mineral_aetherium, spr_mineral_chronium]
+	drops: [spr_mineral_aetherium, spr_mineral_chronium],
+	
+	object: obj_enemy_flyail,
+	initial: 2,
+	max_chance: 3,
+	counter: 0
 },
 {
 	name: "RASTER",
 	discovered: false,
 	description: "Raster's composition consists of an extremely potent and volatile acid, capable of swiftly dissolving various materials upon contact. Even brief exposure to this corrosive substance can cause severe burns and damage.",
 	sprite: spr_enemy_rasterWalkD,
-	drops: [spr_drop_acid]
+	drops: [spr_drop_acid],
+	
+	object: obj_enemy_raster,
+	initial: 3,
+	max_chance: 2,
+	counter: 0
 },
 {
 	name: "KRATHOR",
 	discovered: false,
 	description: "",
 	sprite: spr_enemy_krathor_headWalkR,
-	drops: [spr_mineral_coriumite, spr_mineral_pyrestone]
+	drops: [spr_mineral_coriumite, spr_mineral_pyrestone],
+	
+	object: obj_enemy_krathor_head,
+	initial: 8,
+	max_chance: 1,
+	counter: 0
 },
 {
 	name: "AZURATH",
 	discovered: false,
 	description: "",
 	sprite: spr_enemy_azurathWalkR,
-	drops: [spr_mineral_aetherium, spr_mineral_cryonite]
+	drops: [spr_mineral_aetherium, spr_mineral_cryonite],
+	
+	object: obj_enemy_azurath,
+	initial: 7,
+	max_chance: 1,
+	counter: 0
 },
 {
 	name: "ARPIK",
 	discovered: false,
 	description: "",
 	sprite: spr_enemy_arpikWalkD,
-	drops: [spr_mineral_xenthrite, spr_mineral_chronium]
+	drops: [spr_mineral_xenthrite, spr_mineral_chronium],
+	
+	object: obj_enemy_arpik,
+	initial: 5,
+	max_chance: 2,
+	counter: 0
 },
 {
 	name: "",
@@ -522,6 +552,7 @@ global.props = [
 		else {
 			health = inst_Player.max_health;
 		}
+		audio_play_sound(snd_medkit, 5, false);
 	}
 },
 {
@@ -536,6 +567,7 @@ global.props = [
 		if(inst_Player.shield < inst_Player.max_shield){
 			inst_Player.shield = inst_Player.max_shield;
 		}
+		audio_play_sound(snd_shield_regen, 5, false)
 	}
 },
 {

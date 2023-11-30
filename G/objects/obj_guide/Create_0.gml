@@ -25,3 +25,5 @@ frame = 0;
 
 //current music track
 track = 0;
+global.music_volume = .25;
+global.music_play = false;

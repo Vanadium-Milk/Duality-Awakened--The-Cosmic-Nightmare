@@ -62,7 +62,7 @@ for(var i = 0; i < array_length(selected_craft.cost); i++){
 	
 	draw_sprite(global.resources[selected_craft.cost[i][0]], 0, origin_x + 74 + (i * 28), origin_y + 104);
 	
-	if(current < price){
+	if(current < price && !inst_Player.sandbox_mode){
 		draw_set_color(c_red);
 		craftable *= false;
 	}

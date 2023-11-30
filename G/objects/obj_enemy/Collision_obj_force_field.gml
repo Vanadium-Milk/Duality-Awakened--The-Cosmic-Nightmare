@@ -14,6 +14,7 @@ if(collision){
 	//Stun the enemies that touch the field
 	step = 0;
 	alarm[0] = 30
+	stunned = true;
 	
 	//Reset shield cooldown
 	collision.alarm[0] = 900;

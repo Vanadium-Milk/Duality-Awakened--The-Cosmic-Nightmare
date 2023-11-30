@@ -5,7 +5,7 @@ draw_set_color(c_white);
 
 var str = string_copy(dialogue[phrase], 0, counter);
 
-draw_text(display_get_gui_width()/2, display_get_gui_height()/2, str)
+draw_text(origin_x, origin_y, str)
 
 counter += 0.15
 

@@ -4,12 +4,12 @@ if(string_length(keypress_num) > 0){
 	var keypress_real = real(keypress_num)
 
 	//Check if the pressed number is in the range
-	if(keypress_real >= 0 && keypress_real <= 8){
+	if(keypress_real >= 1 && keypress_real <= 8){
 		
 		//If an object is alredy being placed down revert.
 		if(placing_prop){placing_prop = false; weapon.index = 0; exit;}
 		
-		var inv_slot = obj_inventory.hotbar[keypress_real - 1]
+		var inv_slot = obj_inventory.inventory[keypress_real - 1]
 		var item_index = inv_slot[0]
 		
 		//Checks if the slot has an item in the first place

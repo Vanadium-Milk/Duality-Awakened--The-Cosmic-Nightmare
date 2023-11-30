@@ -21,3 +21,4 @@ part_emitter_burst(_ps, _pemit1, _ptype1, 45);
 
 part_system_position(_ps, x, y);
 part_system_depth(_ps,-y);
+

@@ -9,7 +9,7 @@ switch (action) {
 			scrPlayerMovement();		
 			if(!placing_prop){
 				scrPlayerWeaponUpdate();
-				scrPlayerWeaponSwitch();
+				//scrPlayerWeaponSwitch();
 			}
 		}
 		
