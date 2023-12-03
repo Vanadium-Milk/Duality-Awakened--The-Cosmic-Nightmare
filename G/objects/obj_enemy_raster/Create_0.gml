@@ -6,7 +6,7 @@ enemy = {
 	sprite: "spr_enemy_raster",
 	damage: 8,
 	mov_speed: .5,
-	drop_list: [acido_raster,acido_raster],
+	drop_list: [obj_acid_spill,obj_acid_spill],
 	drop_chance: 1, //likelyhood of dropping loot (1 out of n)
 	score_value: 25,
 	enemy_health: 40,

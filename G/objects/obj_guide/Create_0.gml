@@ -23,7 +23,9 @@ cell_h = 0;
 //sprite animation frame
 frame = 0;
 
-//current music track
+//music track management
+audio_sound_gain(global.lvl_soundtrack, 0, 4000);
+
 track = 0;
 global.music_volume = .25;
 global.music_play = false;

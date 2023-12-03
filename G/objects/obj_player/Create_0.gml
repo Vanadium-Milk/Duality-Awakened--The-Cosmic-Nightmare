@@ -7,11 +7,11 @@ guns = [
 {
 	sprite: "sprGun",
 	icon_sprite: minigun_Icon,
-	fire_sound: snd_bala,
+	fire_sound: snd_gunshot,
 	reload_sound: snd_reload,
 	object: object_index,
 	ammo: 50,
-	maxAmmo: 500,
+	maxAmmo: 300,
 	frequency: 8, //Wait time for each bullet to fire
 	mag_capacity: 20,
 	mag: 20,

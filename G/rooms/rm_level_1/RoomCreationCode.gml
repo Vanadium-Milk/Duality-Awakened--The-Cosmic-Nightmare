@@ -7,6 +7,9 @@ camera_set_view_size(view_camera[0], view_wport[0]/2, view_hport[0]/2);
 //Randomize seed
 randomise();
 
+//Deactivate tutorial
+global.new_game = false;
+
 //animation curves pre-procesing
 animation_size = animcurve_get_channel(ani_damageExpand,0);
 animation_color = animcurve_get_channel(ani_colorChange,2);

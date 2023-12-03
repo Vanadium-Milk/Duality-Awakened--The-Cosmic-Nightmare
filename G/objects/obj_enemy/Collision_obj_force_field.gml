@@ -3,7 +3,7 @@
 //shrink shield
 var collision = instance_place(x,y,obj_force_field);
 if(collision){
-	collision.shield_size -= enemy.damage / 3;
+	collision.shield_size -= enemy.damage;
 	
 	var dir = point_direction(x, y, collision.x, collision.y);
 	

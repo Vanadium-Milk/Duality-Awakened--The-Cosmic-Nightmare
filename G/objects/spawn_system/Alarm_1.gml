@@ -1,5 +1,5 @@
 /// @description Spawn round^2 + 10 enemies
-if(counter < power(global.round,2) + 10){
+if(counter < power(global.round, 2) + 10){
 	counter ++;
 	var spawn_x = 0;
 	var spawn_y = 0;

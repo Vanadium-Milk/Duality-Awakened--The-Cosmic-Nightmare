@@ -1,2 +1,4 @@
 /// @description Skip dialogue
-event_perform(ev_other, ev_user0);
+if(alarm[1] == -1){
+	event_perform(ev_other, ev_user0);
+}

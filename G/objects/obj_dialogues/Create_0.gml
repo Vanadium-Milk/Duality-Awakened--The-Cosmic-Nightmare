@@ -7,10 +7,12 @@ dialogues = [
 ["ROSS?", "ROSS!", "CAN YOU HEAR ME?"]
 ]
 
-if(type = "intro"){
+if(room == rm_intro){
+	type = "intro"
 	dialogue = dialogues[0];
 }
 else{
+	type = "restart";
 	dialogue = choose(dialogues[1], dialogues[2], dialogues[3], dialogues[4])
 }
 
@@ -20,3 +22,5 @@ phrase = 0;
 
 origin_x = display_get_width()/4;
 origin_y = display_get_height()/4;
+
+alarm[1] = 5;
