@@ -1,2 +1,2 @@
-/// @description Raster's acid damages the barrier
-scrPropTakeDamage(self, .1);
+/// @description Raster's acid damages the prop
+scr_prop_take_damage(,.1);

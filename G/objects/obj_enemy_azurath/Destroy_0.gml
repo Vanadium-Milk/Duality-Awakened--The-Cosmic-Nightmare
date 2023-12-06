@@ -62,24 +62,28 @@ if(charge >= 3){
 
 	//Damage nearby entities
 	for (var i = 0; i < n_entities; i++){
-	
-		if(entities_on_radius[|i].object_index == obj_enemy_azurath){
-			entities_on_radius[|i].charge = 3;
-			with entities_on_radius[|i]{
-				event_perform(ev_other, ev_user0);
-			}
-		}
 		
-		else if(entities_on_radius[|i] == inst_Player){
+		//Player
+		if(entities_on_radius[|i] == inst_Player){
 			scrPlayerTakeDamage(13);
 		}
 		
+		//Props
 		else if(object_get_parent(entities_on_radius[|i].object_index) == obj_prop_targeteable){
-			entities_on_radius[|i].durability -= 20;
+			scr_prop_take_damage(entities_on_radius[|i], 20);
 		}
 		
-		else{
-			scr_enemy_take_damage(entities_on_radius[|i], 15);
+		//Enemies
+		else if(object_get_parent(object_get_parent(entities_on_radius[|i].object_index)) == obj_enemy){
+			if(entities_on_radius[|i].object_index == obj_enemy_azurath){
+				entities_on_radius[|i].charge = 3;
+				with entities_on_radius[|i]{
+					event_perform(ev_other, ev_user0);
+				}
+			}
+			else{
+				scr_enemy_take_damage(entities_on_radius[|i], 15);
+			}
 		}
 	}
 

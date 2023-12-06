@@ -22,3 +22,4 @@ part_emitter_burst(_ps, _pemit1, _ptype1, 45);
 part_system_position(_ps, x, y);
 part_system_depth(_ps,-y);
 
+audio_play_sound_at(snd_prop_destroyed, x, y, 0, 200, 500, 2.5, false, 6, random_range(1.5, 1.8), 0, random_range(0.8, 1.2));

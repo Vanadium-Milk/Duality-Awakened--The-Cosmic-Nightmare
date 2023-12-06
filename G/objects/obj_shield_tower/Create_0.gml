@@ -4,6 +4,11 @@ event_inherited();
 max_durability = 100;
 durability = max_durability;
 
+repair_cost = [[2,4], [4,3]]
+
+damageable = true;
+interactable = true;
+
 shadow_size = 18;
 
 depth = - y + 3;

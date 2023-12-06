@@ -5,7 +5,12 @@ sprite_index = spr_turret_base
 max_durability = 30;
 durability = max_durability;
 
+damageable = true;
+interactable = true;
+
 shadow_size = 10;
+
+repair_cost = [[1,2]];
 
 //Variables for the cannon
 pointing = 0;

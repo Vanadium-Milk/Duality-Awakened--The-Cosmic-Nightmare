@@ -2,3 +2,6 @@
 depth += 8;
 
 triggered = false;
+
+damageable = false;
+interactable = false;

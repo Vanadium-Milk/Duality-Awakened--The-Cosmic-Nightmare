@@ -32,7 +32,7 @@ max_health = 15;
 
 shadow_size = 10;
 
-sound_effect = audio_play_sound(snd_grunt1, 0, false, 0);
+sound_effect = audio_play_sound(snd_grunt1, 0, false, 0); //placeholder
 
 //sandbox lets you craft anything for free
 sandbox_mode = false;
@@ -54,3 +54,6 @@ prop_posx = 0;
 prop_posy = 0;
 valid_place = false;
 selected_slot = undefined;
+
+//prop interaction
+pointed_prop = noone;

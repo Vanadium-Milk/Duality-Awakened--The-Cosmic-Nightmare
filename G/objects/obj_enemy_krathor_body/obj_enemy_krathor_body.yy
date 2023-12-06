@@ -45,9 +45,6 @@
     "name": "spr_enemy_krathor_bodyWalkR",
     "path": "sprites/spr_enemy_krathor_bodyWalkR/spr_enemy_krathor_bodyWalkR.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_enemy_krathor_bodyWalkR",
-    "path": "sprites/spr_enemy_krathor_bodyWalkR/spr_enemy_krathor_bodyWalkR.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

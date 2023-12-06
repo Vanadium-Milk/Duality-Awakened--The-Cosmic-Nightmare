@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
-if(point_distance(x + 16, y, inst_Player.x, inst_Player.y) < 60){
-	nearby = true;
-	
+event_inherited()
+
+if(nearby){
 	//Refill ammunition
 	var weapon_struct = inst_Player.guns[inst_Player.weapon.index]
 	if(weapon_struct != noone){
@@ -10,4 +10,3 @@ if(point_distance(x + 16, y, inst_Player.x, inst_Player.y) < 60){
 		}
 	}
 }
-else{ nearby = false;}

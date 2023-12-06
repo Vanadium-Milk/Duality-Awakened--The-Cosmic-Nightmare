@@ -6,6 +6,9 @@ var part_sys_x = x + 16 + lengthdir_x(shield_size, shield_part_angle)
 var part_sys_y = y + lengthdir_y(shield_size * .6, shield_part_angle)
 
 if(part_system_exists(_ps_shield)){
+	
+	scr_switch_part_sys_visibility(_ps_shield);
+	
 	part_system_position(_ps_shield, part_sys_x, part_sys_y);
 	part_system_angle(_ps_shield, shield_part_angle + 90);
 

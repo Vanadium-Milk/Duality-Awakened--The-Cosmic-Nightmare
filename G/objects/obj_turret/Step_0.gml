@@ -1,4 +1,5 @@
 /// @description Aim and shoot
+event_inherited();
 
 point_target = 0; //Reset default angle
 

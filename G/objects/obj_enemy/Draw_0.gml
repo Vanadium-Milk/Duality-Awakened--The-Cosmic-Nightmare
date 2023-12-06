@@ -1,5 +1,4 @@
 /// @description Sprite management
-
 event_inherited();
 
 //Look at the direction of movement

@@ -21,8 +21,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_targeteable",
-    "path": "objects/obj_targeteable/obj_targeteable.yy",
+    "name": "obj_entity",
+    "path": "objects/obj_entity/obj_entity.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

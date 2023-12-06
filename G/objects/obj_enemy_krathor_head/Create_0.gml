@@ -23,6 +23,8 @@ shadow_size = 0;
 
 weakened = false;
 
+body_rot = 0;
+
 //Update its own index on the array
 global.enemies[3].discovered = true;
 

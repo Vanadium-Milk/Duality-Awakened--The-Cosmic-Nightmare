@@ -18,6 +18,9 @@ global.curve_speed = 20; //number of frames to divide the animation curve
 global.damagedSize = [];
 global.damagedColor = [];
 
+//Proportion between the camera and interface size
+global.cam_gui_ratio = camera_get_view_height(view_camera[0]) / display_get_gui_height();
+
 for(var i = 0; i < global.curve_speed; i++){
 	global.damagedSize[i] = animcurve_channel_evaluate(animation_size,i/global.curve_speed);
 	global.damagedColor[i] = animcurve_channel_evaluate(animation_color,i/global.curve_speed);

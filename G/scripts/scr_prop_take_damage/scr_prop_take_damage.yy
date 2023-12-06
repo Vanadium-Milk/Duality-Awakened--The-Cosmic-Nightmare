@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scrPropTakeDamage",
+  "name": "scr_prop_take_damage",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

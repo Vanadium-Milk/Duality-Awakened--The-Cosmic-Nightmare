@@ -1,9 +1,8 @@
 /// @description Inserte aquí la descripción
-
 event_inherited();
 
 if(ds_exists(positions, ds_type_list)){
-	ds_list_insert(positions, 0, image_angle);
+	ds_list_insert(positions, 0, body_rot);
 	ds_list_insert(positions, 0, y);
 	ds_list_insert(positions, 0, x);
 

@@ -1,6 +1,8 @@
-// Los recursos de Script han cambiado para la v2.3.0 Consulta
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
-function scr_enemy_take_damage(enemy_instance, damage){
+///@description recieve a determined amount of damage, animate damage, die if health is 0 or below.
+///@param {Id.Instance} enemy_instance The instance to recieve the damage (optional, self if omitted).
+///@param {real} damage The amount of damage to recieve.
+
+function scr_enemy_take_damage(enemy_instance = self, damage){
 	scrPlayDmgAnimation(enemy_instance);
 	enemy_instance.enemy.enemy_health -= damage;
 	

@@ -54,7 +54,8 @@ draw_text(origin_x + 50, origin_y - 75, selected_craft.name);
 draw_text(origin_x + 54, origin_y + 74, "COST:");
 				
 draw_set_halign(fa_center);
-				
+
+//Change sprites if it's craftable or not
 craftable = true;
 for(var i = 0; i < array_length(selected_craft.cost); i++){
 	var price = selected_craft.cost[i][1];

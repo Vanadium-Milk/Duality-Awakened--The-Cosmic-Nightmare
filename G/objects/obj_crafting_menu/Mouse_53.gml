@@ -13,9 +13,8 @@ else if(point_in_rectangle(mouse_gui_x, mouse_gui_y, origin_x + 50, origin_y + 1
 		if(obj_inventory.inventory[i][0] == selected + 1){
 			obj_inventory.inventory[i][1] += 1;
 			
-			for(var j = 0; j < array_length(global.props[selected + 1].cost); j++){
-				obj_inventory.resources[global.props[selected + 1].cost[j][0]] -= global.props[selected + 1].cost[j][1];
-			}
+			//Remove the materials from the inventory
+			scr_subtract_resources(global.props[selected + 1].cost);
 			
 			audio_play_sound(snd_prop_craft, 4, false);
 			exit;
@@ -27,9 +26,8 @@ else if(point_in_rectangle(mouse_gui_x, mouse_gui_y, origin_x + 50, origin_y + 1
 			obj_inventory.inventory[i][0] = selected + 1;
 			obj_inventory.inventory[i][1] += 1;
 			
-			for(var j = 0; j < array_length(global.props[selected + 1].cost); j++){
-				obj_inventory.resources[global.props[selected + 1].cost[j][0]] -= global.props[selected + 1].cost[j][1];
-			}
+			//Remove the materials from the inventory
+			scr_subtract_resources(global.props[selected + 1].cost);
 			
 			audio_play_sound(snd_prop_craft, 4, false);
 			exit;
